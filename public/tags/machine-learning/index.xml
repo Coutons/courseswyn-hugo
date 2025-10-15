@@ -2,22 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine Learning on CoursesWyn</title>
-    <link>http://localhost:1313/tags/machine-learning/</link>
+    <link>http://localhost:64145/tags/machine-learning/</link>
     <description>Recent content in Machine Learning on CoursesWyn</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>© 2025 CoursesWyn</copyright>
-    <lastBuildDate>Mon, 13 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 13 Oct 2025 15:00:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:64145/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>10 Best Data Science Courses on Udemy 2025</title>
-      <link>http://localhost:1313/posts/best-data-science-courses-udemy/</link>
+      <link>http://localhost:64145/posts/best-data-science-courses-udemy/</link>
       <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/best-data-science-courses-udemy/</guid>
+      <guid>http://localhost:64145/posts/best-data-science-courses-udemy/</guid>
       <description></description>
-      
     </item>
-    
   </channel>
 </rss>
