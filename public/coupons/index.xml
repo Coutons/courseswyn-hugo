@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coupons on CoursesWyn</title>
+    <link>http://localhost:1313/coupons/</link>
+    <description>Recent content in Coupons on CoursesWyn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>youremail@example.com (CoursesWyn)</managingEditor>
+    <webMaster>youremail@example.com (CoursesWyn)</webMaster>
+    <copyright>© 2025 CoursesWyn</copyright>
+    <atom:link href="http://localhost:1313/coupons/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>
