@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CoursesWyn</title>
-    <link>http://localhost:64145/</link>
+    <link>http://localhost:54405/</link>
     <description>Recent content on CoursesWyn</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:64145/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54405/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Privacy and Security Policy</title>
-      <link>http://localhost:64145/privacy/</link>
+      <link>http://localhost:54405/privacy/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64145/privacy/</guid>
+      <guid>http://localhost:54405/privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>10 Best Data Science Courses on Udemy 2025</title>
-      <link>http://localhost:64145/posts/best-data-science-courses-udemy/</link>
+      <link>http://localhost:54405/posts/best-data-science-courses-udemy/</link>
       <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64145/posts/best-data-science-courses-udemy/</guid>
+      <guid>http://localhost:54405/posts/best-data-science-courses-udemy/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,71 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:64145/</loc>
+    <loc>http://localhost:54405/</loc>
     <lastmod>2025-10-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:64145/privacy/</loc>
+    <loc>http://localhost:54405/privacy/</loc>
     <lastmod>2025-10-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:64145/posts/best-data-science-courses-udemy/</loc>
+    <loc>http://localhost:54405/posts/best-data-science-courses-udemy/</loc>
     <lastmod>2025-10-13T15:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:64145/categories/</loc>
+    <loc>http://localhost:54405/categories/</loc>
     <lastmod>2025-10-13T15:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:64145/categories/data-science/</loc>
+    <loc>http://localhost:54405/categories/data-science/</loc>
     <lastmod>2025-10-13T15:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:64145/tags/data-science/</loc>
+    <loc>http://localhost:54405/tags/data-science/</loc>
     <lastmod>2025-10-13T15:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:64145/tags/machine-learning/</loc>
+    <loc>http://localhost:54405/tags/machine-learning/</loc>
     <lastmod>2025-10-13T15:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:64145/categories/online-courses/</loc>
+    <loc>http://localhost:54405/categories/online-courses/</loc>
     <lastmod>2025-10-13T15:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:64145/posts/</loc>
+    <loc>http://localhost:54405/posts/</loc>
     <lastmod>2025-10-13T15:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:64145/tags/python/</loc>
+    <loc>http://localhost:54405/tags/python/</loc>
     <lastmod>2025-10-13T15:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:64145/tags/</loc>
+    <loc>http://localhost:54405/tags/</loc>
     <lastmod>2025-10-13T15:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:64145/tags/udemy/</loc>
+    <loc>http://localhost:54405/tags/udemy/</loc>
     <lastmod>2025-10-13T15:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:64145/authors/</loc>
+    <loc>http://localhost:54405/authors/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:64145/series/</loc>
+    <loc>http://localhost:54405/series/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
