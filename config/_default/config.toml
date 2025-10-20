@@ -1,0 +1,60 @@
+baseURL = 'https://courseswyn.com/'
+languageCode = 'en-us'
+title = 'CoursesWyn'
+theme = 'stack'
+canonifyURLs = true
+publishDir = 'public'
+
+# For GitHub Pages
+enableGitInfo = true
+
+# Language settings
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+[permalinks]
+  posts = '/:year/:month/:slug/'
+  page = '/:slug/'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+    style = 'github'
+
+[imaging]
+  quality = 85
+  anchor = 'smart'
+  resampleFilter = 'CatmullRom'
+
+[params]
+  env = 'production'
+  description = 'Discover the best online courses'
+  mainSections = ["posts"]
+  enablePostNavigationLinks = true
+  [params.homeInfoParams]
+    Title = "Welcome to CoursesWyn"
+    Content = "Discover and share the best online courses and learning resources."
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[services]
+  [services.disqus]
+    shortname = ""  # Add your Disqus shortname if using
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.instagram]
+    style = ""
+  [privacy.youtube]
+    privacyEnhanced = true
+
+# Trigger deployment update
+

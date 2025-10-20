@@ -1,0 +1,77 @@
+{{- $page := . -}}
+{{- if $page.IsPage -}}
+{{- $featured_image := "" -}}
+{{- with $page.Params.image -}}
+  {{- $featured_image = . | absURL -}}
+{{- else with $page.Params.cover -}}
+  {{- $featured_image = . | absURL -}}
+{{- else with $page.Site.Params.defaultFeaturedImage -}}
+  {{- $featured_image = . | absURL -}}
+{{- end -}}
+{{- $site := $page.Site -}}
+{{- $baseURL := $site.BaseURL | strings.TrimSuffix "/" -}}
+{{- $logoURL := "" -}}
+{{- with $site.Params.logo -}}
+  {{- $logoURL = . | absURL -}}
+{{- else -}}
+  {{- $logoURL = printf "%s/logo.png" $baseURL -}}
+{{- end -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ $page.Title }}",
+  "name": "{{ $page.Title }}",
+  "description": "{{ $page.Description | default $page.Summary }}",
+  "keywords": {{ $page.Params.tags | jsonify }},
+  "inLanguage": "en",
+  "image": "{{ $featured_image | default (print $baseURL "/images/default-featured.jpg") }}",
+  "datePublished": "{{ $page.Date.Format "2006-01-02T15:04:05-07:00" }}",
+  "dateModified": "{{ $page.Lastmod.Format "2006-01-02T15:04:05-07:00" }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ $page.Params.author | default "Josh Smith" }}",
+    "url": "{{ $page.Site.Params.authorUrl | default "https://courseswyn.com/about/" }}",
+    "image": "{{ $page.Site.Params.authorImage | default "https://courseswyn.com/img/profile.jpg" }}",
+    "sameAs": [
+      "https://twitter.com/CoursesGift",
+      "https://github.com/Coutons"
+    ],
+    "knowsAbout": [
+      "https://en.wikipedia.org/wiki/Machine_learning",
+      "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "https://en.wikipedia.org/wiki/Deep_learning",
+      "https://en.wikipedia.org/wiki/Computer_vision",
+      "https://en.wikipedia.org/wiki/Recommender_system",
+      "https://en.wikipedia.org/wiki/Time_series",
+      "https://en.wikipedia.org/wiki/Forecasting",
+      "https://en.wikipedia.org/wiki/Python_(programming_language)",
+      "https://en.wikipedia.org/wiki/JavaScript",
+      "https://en.wikipedia.org/wiki/HTML",
+      "https://en.wikipedia.org/wiki/CSS",
+      "https://en.wikipedia.org/wiki/SQL",
+      "https://en.wikipedia.org/wiki/NoSQL",
+      "https://en.wikipedia.org/wiki/Kaggle",
+      "https://en.wikipedia.org/wiki/Google_Colaboratory",
+      "https://en.wikipedia.org/wiki/Google_Cloud_Platform",
+      "https://en.wikipedia.org/wiki/Amazon_Web_Services",
+      "https://en.wikipedia.org/wiki/Natural_language_processing",
+      "https://en.wikipedia.org/wiki/Computer_science",
+      "https://en.wikipedia.org/wiki/Software_engineering"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ $site.Title | default "CoursesWyn" }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ $logoURL }}"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ $page.Permalink | default $page.RelPermalink | absURL }}"
+  }
+}
+</script>
+{{ end }}

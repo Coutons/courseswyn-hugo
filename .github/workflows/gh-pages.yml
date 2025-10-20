@@ -1,0 +1,42 @@
+# .github/workflows/gh-pages.yml
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ "main" ]  # Hanya trigger di branch main
+  workflow_dispatch:  # Memungkinkan trigger manual
+
+permissions:
+  contents: write  # Memberikan izin tulis ke workflow
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
+          fetch-depth: 0
+
+      - name: Remove submodule config
+        run: |
+          rm -f .gitmodules
+          rm -rf .git/modules
+          git rm -r --cached themes/stack || true
+          git add .
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
