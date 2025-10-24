@@ -2,185 +2,185 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on CoursesWyn - Best Udemy Courses &amp; Reviews</title>
-    <link>http://localhost:60685/tags/</link>
+    <link>http://localhost:50175/tags/</link>
     <description>Recent content in Tags on CoursesWyn - Best Udemy Courses &amp; Reviews</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Oct 2025 21:22:00 +0700</lastBuildDate>
-    <atom:link href="http://localhost:60685/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50175/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coding-Bootcamps</title>
-      <link>http://localhost:60685/tags/coding-bootcamps/</link>
+      <link>http://localhost:50175/tags/coding-bootcamps/</link>
       <pubDate>Fri, 24 Oct 2025 21:22:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/coding-bootcamps/</guid>
+      <guid>http://localhost:50175/tags/coding-bootcamps/</guid>
       <description></description>
     </item>
     <item>
       <title>Full-Stack</title>
-      <link>http://localhost:60685/tags/full-stack/</link>
+      <link>http://localhost:50175/tags/full-stack/</link>
       <pubDate>Fri, 24 Oct 2025 21:22:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/full-stack/</guid>
+      <guid>http://localhost:50175/tags/full-stack/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>http://localhost:60685/tags/javascript/</link>
+      <link>http://localhost:50175/tags/javascript/</link>
       <pubDate>Fri, 24 Oct 2025 21:22:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/javascript/</guid>
+      <guid>http://localhost:50175/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Learn-Web-Development</title>
-      <link>http://localhost:60685/tags/learn-web-development/</link>
+      <link>http://localhost:50175/tags/learn-web-development/</link>
       <pubDate>Fri, 24 Oct 2025 21:22:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/learn-web-development/</guid>
+      <guid>http://localhost:50175/tags/learn-web-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Node-Js</title>
-      <link>http://localhost:60685/tags/node-js/</link>
+      <link>http://localhost:50175/tags/node-js/</link>
       <pubDate>Fri, 24 Oct 2025 21:22:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/node-js/</guid>
+      <guid>http://localhost:50175/tags/node-js/</guid>
       <description></description>
     </item>
     <item>
       <title>Online-Learning</title>
-      <link>http://localhost:60685/tags/online-learning/</link>
+      <link>http://localhost:50175/tags/online-learning/</link>
       <pubDate>Fri, 24 Oct 2025 21:22:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/online-learning/</guid>
+      <guid>http://localhost:50175/tags/online-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>React</title>
-      <link>http://localhost:60685/tags/react/</link>
+      <link>http://localhost:50175/tags/react/</link>
       <pubDate>Fri, 24 Oct 2025 21:22:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/react/</guid>
+      <guid>http://localhost:50175/tags/react/</guid>
       <description></description>
     </item>
     <item>
       <title>Udemy</title>
-      <link>http://localhost:60685/tags/udemy/</link>
+      <link>http://localhost:50175/tags/udemy/</link>
       <pubDate>Fri, 24 Oct 2025 21:22:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/udemy/</guid>
+      <guid>http://localhost:50175/tags/udemy/</guid>
       <description></description>
     </item>
     <item>
       <title>Web-Design</title>
-      <link>http://localhost:60685/tags/web-design/</link>
+      <link>http://localhost:50175/tags/web-design/</link>
       <pubDate>Fri, 24 Oct 2025 21:22:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/web-design/</guid>
+      <guid>http://localhost:50175/tags/web-design/</guid>
       <description></description>
     </item>
     <item>
       <title>Web-Development</title>
-      <link>http://localhost:60685/tags/web-development/</link>
+      <link>http://localhost:50175/tags/web-development/</link>
       <pubDate>Fri, 24 Oct 2025 21:22:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/web-development/</guid>
+      <guid>http://localhost:50175/tags/web-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Ai</title>
-      <link>http://localhost:60685/tags/ai/</link>
+      <link>http://localhost:50175/tags/ai/</link>
       <pubDate>Fri, 24 Oct 2025 14:27:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/ai/</guid>
+      <guid>http://localhost:50175/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Data-Science</title>
-      <link>http://localhost:60685/tags/data-science/</link>
+      <link>http://localhost:50175/tags/data-science/</link>
       <pubDate>Fri, 24 Oct 2025 14:27:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/data-science/</guid>
+      <guid>http://localhost:50175/tags/data-science/</guid>
       <description></description>
     </item>
     <item>
       <title>Learn-Python</title>
-      <link>http://localhost:60685/tags/learn-python/</link>
+      <link>http://localhost:50175/tags/learn-python/</link>
       <pubDate>Fri, 24 Oct 2025 14:27:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/learn-python/</guid>
+      <guid>http://localhost:50175/tags/learn-python/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming-Courses</title>
-      <link>http://localhost:60685/tags/programming-courses/</link>
+      <link>http://localhost:50175/tags/programming-courses/</link>
       <pubDate>Fri, 24 Oct 2025 14:27:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/programming-courses/</guid>
+      <guid>http://localhost:50175/tags/programming-courses/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:60685/tags/python/</link>
+      <link>http://localhost:50175/tags/python/</link>
       <pubDate>Fri, 24 Oct 2025 14:27:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/python/</guid>
+      <guid>http://localhost:50175/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Python-Tutorial</title>
-      <link>http://localhost:60685/tags/python-tutorial/</link>
+      <link>http://localhost:50175/tags/python-tutorial/</link>
       <pubDate>Fri, 24 Oct 2025 14:27:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/python-tutorial/</guid>
+      <guid>http://localhost:50175/tags/python-tutorial/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine-Learning</title>
-      <link>http://localhost:60685/tags/machine-learning/</link>
+      <link>http://localhost:50175/tags/machine-learning/</link>
       <pubDate>Mon, 13 Oct 2025 15:00:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/machine-learning/</guid>
+      <guid>http://localhost:50175/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Backend-Development</title>
-      <link>http://localhost:60685/tags/backend-development/</link>
+      <link>http://localhost:50175/tags/backend-development/</link>
       <pubDate>Wed, 01 Jan 2020 11:00:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/backend-development/</guid>
+      <guid>http://localhost:50175/tags/backend-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>http://localhost:60685/tags/java/</link>
+      <link>http://localhost:50175/tags/java/</link>
       <pubDate>Wed, 01 Jan 2020 11:00:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/java/</guid>
+      <guid>http://localhost:50175/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Java-Programming</title>
-      <link>http://localhost:60685/tags/java-programming/</link>
+      <link>http://localhost:50175/tags/java-programming/</link>
       <pubDate>Wed, 01 Jan 2020 11:00:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/java-programming/</guid>
+      <guid>http://localhost:50175/tags/java-programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Online-Courses</title>
-      <link>http://localhost:60685/tags/online-courses/</link>
+      <link>http://localhost:50175/tags/online-courses/</link>
       <pubDate>Wed, 01 Jan 2020 11:00:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/online-courses/</guid>
+      <guid>http://localhost:50175/tags/online-courses/</guid>
       <description></description>
     </item>
     <item>
       <title>Software-Development</title>
-      <link>http://localhost:60685/tags/software-development/</link>
+      <link>http://localhost:50175/tags/software-development/</link>
       <pubDate>Wed, 01 Jan 2020 11:00:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/software-development/</guid>
+      <guid>http://localhost:50175/tags/software-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring-Boot</title>
-      <link>http://localhost:60685/tags/spring-boot/</link>
+      <link>http://localhost:50175/tags/spring-boot/</link>
       <pubDate>Wed, 01 Jan 2020 11:00:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/spring-boot/</guid>
+      <guid>http://localhost:50175/tags/spring-boot/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring-Framework</title>
-      <link>http://localhost:60685/tags/spring-framework/</link>
+      <link>http://localhost:50175/tags/spring-framework/</link>
       <pubDate>Wed, 01 Jan 2020 11:00:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/spring-framework/</guid>
+      <guid>http://localhost:50175/tags/spring-framework/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring-Security</title>
-      <link>http://localhost:60685/tags/spring-security/</link>
+      <link>http://localhost:50175/tags/spring-security/</link>
       <pubDate>Wed, 01 Jan 2020 11:00:00 +0700</pubDate>
-      <guid>http://localhost:60685/tags/spring-security/</guid>
+      <guid>http://localhost:50175/tags/spring-security/</guid>
       <description></description>
     </item>
   </channel>
