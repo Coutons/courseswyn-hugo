@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spring-Boot on CoursesWyn - Best Udemy Courses &amp; Reviews</title>
-    <link>http://localhost:49891/tags/spring-boot/</link>
+    <link>http://localhost:58927/tags/spring-boot/</link>
     <description>Recent content in Spring-Boot on CoursesWyn - Best Udemy Courses &amp; Reviews</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jan 2020 11:00:00 +0700</lastBuildDate>
-    <atom:link href="http://localhost:49891/tags/spring-boot/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:58927/tags/spring-boot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>10 Best Java Spring Courses on Udemy (2025) | Learn Spring Boot &amp; More</title>
-      <link>http://localhost:49891/posts/best-java-spring-courses-udemy/</link>
+      <link>http://localhost:58927/posts/best-java-spring-courses-udemy/</link>
       <pubDate>Wed, 01 Jan 2020 11:00:00 +0700</pubDate>
-      <guid>http://localhost:49891/posts/best-java-spring-courses-udemy/</guid>
+      <guid>http://localhost:58927/posts/best-java-spring-courses-udemy/</guid>
       <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#why-learn-spring&#34;&gt;Why Learn Spring in 2025?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#course-comparison&#34;&gt;Course Comparison Table&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#course-reviews&#34;&gt;In-Depth Course Reviews&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#choosing-guide&#34;&gt;How to Choose the Right Course&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#faq&#34;&gt;Frequently Asked Questions&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-learn-spring-in-2025&#34;&gt;Why Learn Spring in 2025?&lt;/h2&gt;&#xA;&lt;p&gt;Java Spring continues to dominate enterprise application development, with over 60% of Java developers using Spring Boot for their projects. The framework&amp;rsquo;s popularity stems from its:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Robust Ecosystem&lt;/strong&gt;: Comprehensive tools for building production-grade applications&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;High Demand&lt;/strong&gt;: Over 50,000+ job postings requiring Spring Framework skills&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Modern Features&lt;/strong&gt;: Support for reactive programming, cloud-native applications, and microservices&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Strong Community&lt;/strong&gt;: Backed by Pivotal and a vibrant developer community&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
   </channel>
