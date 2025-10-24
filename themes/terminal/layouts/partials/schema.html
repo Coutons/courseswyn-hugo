@@ -1,0 +1,28 @@
+{{ if .IsHome }}
+<!-- JSON-LD Schema for Home Page -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ .Site.Title }}",
+  "url": "{{ .Site.BaseURL }}",
+  "description": "{{ .Description }}"
+}
+</script>
+{{ else if eq .Type "posts" }}
+<!-- Article Schema for Blog Posts -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ .Params.author | default "CoursesWyn Team" }}"
+  },
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "url": "{{ .Permalink }}"
+}
+</script>
+{{ end }}

@@ -1,0 +1,36 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ .Description }}">
+{{ with .Keywords }}
+<meta name="keywords" content="{{ range $i, $keyword := . }}{{ if $i }}, {{ end }}{{ $keyword }}{{ end }}">
+{{ end }}
+<meta name="author" content="{{ .Site.Params.author | default "CoursesWyn Team" }}">
+<meta name="robots" content="index, follow">
+
+<!-- Canonical URL -->
+{{ if .IsHome }}
+  <meta name="canonical" content="{{ .Site.BaseURL }}">
+  <link rel="canonical" href="{{ .Site.BaseURL }}">
+{{ else }}
+  <meta name="canonical" content="{{ .Permalink }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+{{ end }}
+
+<!-- Open Graph -->
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:url" content="{{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}">
+<meta property="og:description" content="{{ .Description }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="{{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}">
+<meta name="twitter:description" content="{{ .Description }}">
+
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+
+{{ partialCached "head/css.html" . }}
+
+{{ partial "schema.html" . }}
