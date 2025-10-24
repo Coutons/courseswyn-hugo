@@ -101,12 +101,18 @@
   height: auto;
   border-radius: 12px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  margin: 2rem 0;
   transition: transform 0.3s ease;
 }
 
 .featured-image:hover {
   transform: scale(1.02);
+}
+
+.featured-image-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+  text-align: center;
 }
 
 .course-image {
