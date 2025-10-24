@@ -18,6 +18,13 @@ seo_description: "Explore the top 10 web development bootcamps on Udemy for 2025
 
 ## Best Web Development Bootcamps on Udemy 2025
 
+<!-- Test with simple markdown image -->
+![Best Web Development Bootcamps 2025](/images/web-dev-2025.jpg "Best Web Development Courses on Udemy 2025")
+
+<!-- Test with absolute URL -->
+![Test Full URL](https://courseswyn.com/images/web-dev-2025.jpg "Test absolute URL")
+
+<!-- Test with direct HTML -->
 <div class="featured-image-container">
   <img src="/images/web-dev-2025.jpg" alt="Best Web Development Bootcamps on Udemy 2025" class="featured-image" loading="lazy">
   <p class="text-sm text-gray-600 mt-2 italic text-center">Best Web Development Courses on Udemy 2025 - Learn full-stack development, React, Node.js, and modern frameworks</p>

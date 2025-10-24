@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on CoursesWyn - Best Udemy Courses &amp; Reviews</title>
-    <link>http://localhost:58927/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on CoursesWyn - Best Udemy Courses &amp; Reviews</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Oct 2025 21:22:00 +0700</lastBuildDate>
-    <atom:link href="http://localhost:58927/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Education</title>
-      <link>http://localhost:58927/categories/education/</link>
+      <link>http://localhost:1313/categories/education/</link>
       <pubDate>Fri, 24 Oct 2025 21:22:00 +0700</pubDate>
-      <guid>http://localhost:58927/categories/education/</guid>
+      <guid>http://localhost:1313/categories/education/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>http://localhost:58927/categories/programming/</link>
+      <link>http://localhost:1313/categories/programming/</link>
       <pubDate>Fri, 24 Oct 2025 21:22:00 +0700</pubDate>
-      <guid>http://localhost:58927/categories/programming/</guid>
+      <guid>http://localhost:1313/categories/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech-Courses</title>
-      <link>http://localhost:58927/categories/tech-courses/</link>
+      <link>http://localhost:1313/categories/tech-courses/</link>
       <pubDate>Fri, 24 Oct 2025 21:22:00 +0700</pubDate>
-      <guid>http://localhost:58927/categories/tech-courses/</guid>
+      <guid>http://localhost:1313/categories/tech-courses/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Science</title>
-      <link>http://localhost:58927/categories/data-science/</link>
+      <link>http://localhost:1313/categories/data-science/</link>
       <pubDate>Mon, 13 Oct 2025 15:00:00 +0700</pubDate>
-      <guid>http://localhost:58927/categories/data-science/</guid>
+      <guid>http://localhost:1313/categories/data-science/</guid>
       <description></description>
     </item>
     <item>
       <title>Online-Courses</title>
-      <link>http://localhost:58927/categories/online-courses/</link>
+      <link>http://localhost:1313/categories/online-courses/</link>
       <pubDate>Mon, 13 Oct 2025 15:00:00 +0700</pubDate>
-      <guid>http://localhost:58927/categories/online-courses/</guid>
+      <guid>http://localhost:1313/categories/online-courses/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>http://localhost:58927/categories/java/</link>
+      <link>http://localhost:1313/categories/java/</link>
       <pubDate>Wed, 01 Jan 2020 11:00:00 +0700</pubDate>
-      <guid>http://localhost:58927/categories/java/</guid>
+      <guid>http://localhost:1313/categories/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Online-Learning</title>
-      <link>http://localhost:58927/categories/online-learning/</link>
+      <link>http://localhost:1313/categories/online-learning/</link>
       <pubDate>Wed, 01 Jan 2020 11:00:00 +0700</pubDate>
-      <guid>http://localhost:58927/categories/online-learning/</guid>
+      <guid>http://localhost:1313/categories/online-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring</title>
-      <link>http://localhost:58927/categories/spring/</link>
+      <link>http://localhost:1313/categories/spring/</link>
       <pubDate>Wed, 01 Jan 2020 11:00:00 +0700</pubDate>
-      <guid>http://localhost:58927/categories/spring/</guid>
+      <guid>http://localhost:1313/categories/spring/</guid>
       <description></description>
     </item>
     <item>
       <title>It Software</title>
-      <link>http://localhost:58927/categories/it-software/</link>
+      <link>http://localhost:1313/categories/it-software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58927/categories/it-software/</guid>
+      <guid>http://localhost:1313/categories/it-software/</guid>
       <description></description>
     </item>
     <item>
       <title>Marketing</title>
-      <link>http://localhost:58927/categories/marketing/</link>
+      <link>http://localhost:1313/categories/marketing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58927/categories/marketing/</guid>
+      <guid>http://localhost:1313/categories/marketing/</guid>
       <description></description>
     </item>
     <item>
       <title>Personal Development</title>
-      <link>http://localhost:58927/categories/personal-development/</link>
+      <link>http://localhost:1313/categories/personal-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58927/categories/personal-development/</guid>
+      <guid>http://localhost:1313/categories/personal-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Photography</title>
-      <link>http://localhost:58927/categories/photography/</link>
+      <link>http://localhost:1313/categories/photography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58927/categories/photography/</guid>
+      <guid>http://localhost:1313/categories/photography/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Development</title>
-      <link>http://localhost:58927/categories/web-development/</link>
+      <link>http://localhost:1313/categories/web-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58927/categories/web-development/</guid>
+      <guid>http://localhost:1313/categories/web-development/</guid>
       <description></description>
     </item>
   </channel>
