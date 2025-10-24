@@ -1,150 +1,96 @@
-/* Reset and Base Styles */
-:root {
-    --primary-color: #2563eb;
-    --text-color: #1f2937;
-    --bg-color: #ffffff;
-    --header-height: 70px;
+/* Custom styles for CoursesWyn theme */
+
+/* Style links within post content to be blue */
+.prose-invert a {
+  color: #60a5fa; /* blue-400 */
+  text-decoration: none;
 }
 
-body {
-    margin: 0;
-    padding-top: var(--header-height);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+.prose-invert a:hover {
+  color: #38bdf8; /* sky-400 */
+  text-decoration: underline;
 }
 
-/* Header Styles */
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: var(--header-height);
-    background: var(--bg-color);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-    padding: 0 2rem;
-    display: flex;
-    align-items: center;
+/* Style code blocks and pre elements */
+.prose-invert pre {
+  background-color: #1e293b; /* slate-800 */
+  border: 1px solid #334155; /* slate-700 */
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-x: auto;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
+.prose-invert code {
+  background-color: #1e293b; /* slate-800 */
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-family: ui-monospace, monospace;
 }
 
-.logo {
-    margin: 0;
-    font-size: 1.5rem;
-    font-weight: 700;
-    white-space: nowrap;
+/* Style blockquotes */
+.prose-invert blockquote {
+  border-left: 4px solid #38bdf8; /* sky-400 */
+  padding-left: 1rem;
+  font-style: italic;
+  color: #cbd5e1; /* slate-300 */
 }
 
-.logo a {
-    color: var(--primary-color);
-    text-decoration: none;
-    transition: color 0.3s ease;
-    padding: 0.5rem 0;
-    display: inline-block;
+/* Style headings within posts */
+.prose-invert h1,
+.prose-invert h2,
+.prose-invert h3,
+.prose-invert h4,
+.prose-invert h5,
+.prose-invert h6 {
+  color: #ffffff;
+  font-weight: bold;
 }
 
-.logo a:hover {
-    color: #1d4ed8;
+.prose-invert h1 {
+  font-size: 1.875rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
 }
 
-.menu {
-    display: flex;
-    gap: 2rem;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    align-items: center;
+.prose-invert h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
 }
 
-.menu-item {
-    color: var(--text-color);
-    text-decoration: none;
-    font-weight: 500;
-    padding: 0.5rem 0;
-    position: relative;
-    transition: color 0.3s ease;
-    white-space: nowrap;
+.prose-invert h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  margin-top: 1.25rem;
 }
 
-.menu-item:hover {
-    color: var(--primary-color);
+/* Style lists */
+.prose-invert ul,
+.prose-invert ol {
+  color: #cbd5e1; /* slate-300 */
 }
 
-.menu-item::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: var(--primary-color);
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
+.prose-invert li {
+  margin-bottom: 0.5rem;
 }
 
-.menu-item:hover::after {
-    transform: scaleX(1);
+/* Style tables */
+.prose-invert table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #334155; /* slate-700 */
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .header {
-        padding: 0 1rem;
-    }
-    
-    .nav {
-        padding: 0;
-    }
-    
-    .menu {
-        display: none;
-        position: fixed;
-        top: var(--header-height);
-        left: 0;
-        right: 0;
-        background: var(--bg-color);
-        flex-direction: column;
-        padding: 1rem 0;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-        z-index: 999;
-    }
-    
-    .menu.active {
-        display: flex;
-    }
-    
-    .menu-item {
-        padding: 0.75rem 1.5rem;
-        width: 100%;
-        text-align: center;
-    }
+.prose-invert th,
+.prose-invert td {
+  border: 1px solid #334155; /* slate-700 */
+  padding: 0.75rem 1rem;
+  text-align: left;
 }
 
-/* Dark Mode Support */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-color: #1f2937;
-        --text-color: #f9fafb;
-    }
-    
-    .header {
-        background: var(--bg-color);
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-    }
-}
-
-/* Main content spacing */
-main {
-    padding: 2rem 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
+.prose-invert th {
+  background-color: #1e293b; /* slate-800 */
+  font-weight: bold;
+  color: #ffffff;
 }

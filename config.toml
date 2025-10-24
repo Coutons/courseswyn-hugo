@@ -1,0 +1,32 @@
+baseURL = "https://courseswyn.com/"
+languageCode = "en-us"
+title = "CoursesWyn"
+theme = "terminal"
+timeZone = "Asia/Jakarta"
+
+[params]
+  description = "Best Udemy courses and expert reviews"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/courseswyn"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/courseswyn"
+
+  [[params.social]]
+    name = "youtube"
+    url = "https://youtube.com/@courseswyn"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://linkedin.com/company/courseswyn"
+
+  [[params.social]]
+    name = "facebook"
+    url = "https://facebook.com/courseswyn"
+
+  [[params.social]]
+    name = "instagram"
+    url = "https://instagram.com/courseswyn"

@@ -1,18 +1,24 @@
 User-agent: *
 Allow: /
+
+# Sitemap
 Sitemap: https://courseswyn.com/sitemap.xml
 
-# Block specific paths
-Disallow: /search/
-Disallow: /tag/
-Disallow: /categories/
+# Crawl delay
+Crawl-delay: 1
 
-# Crawl-delay: 10  # Uncomment and adjust if needed
-
-# Allow all robots to access these directories
+# Allow important directories
 Allow: /css/
 Allow: /js/
 Allow: /images/
+Allow: /posts/
+Allow: /categories/
+Allow: /tags/
+Allow: /authors/
 
-# Sitemap location
-Sitemap: https://courseswyn.com/sitemap.xml
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_drafts/
+Disallow: /*.json$
+Disallow: /*?*print=1
