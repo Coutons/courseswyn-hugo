@@ -181,20 +181,47 @@
   }
 }
 
-/* Styling for images in markdown content */
-.prose-invert img {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  margin: 2rem auto;
-  display: block;
-  max-width: 800px;
-  transition: transform 0.3s ease;
+/* Improve prose content spacing */
+.prose-invert {
+  line-height: 1.7;
+  max-width: 100%;
 }
 
-.prose-invert img:hover {
-  transform: scale(1.02);
+.prose-invert h1,
+.prose-invert h2,
+.prose-invert h3,
+.prose-invert h4,
+.prose-invert h5,
+.prose-invert h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.prose-invert p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.prose-invert ul,
+.prose-invert ol {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.prose-invert li {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+/* Better spacing for blockquotes */
+.prose-invert blockquote {
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
 }
 
 /* Image caption styling */
@@ -204,8 +231,54 @@
   font-size: 0.875rem;
   color: #6b7280;
   font-style: italic;
-  margin-top: 0.5rem;
-  margin-bottom: 2rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Responsive spacing improvements */
+@media (max-width: 768px) {
+  /* Mobile spacing */
+  .prose-invert h1,
+  .prose-invert h2,
+  .prose-invert h3,
+  .prose-invert h4,
+  .prose-invert h5,
+  .prose-invert h6 {
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .prose-invert p {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .prose-invert ul,
+  .prose-invert ol {
+    padding-left: 1rem;
+  }
+
+  /* Mobile post cards */
+  .grid.gap-8 {
+    gap: 1rem;
+  }
+
+  article {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Tablet spacing */
+  .prose-invert h1,
+  .prose-invert h2,
+  .prose-invert h3,
+  .prose-invert h4,
+  .prose-invert h5,
+  .prose-invert h6 {
+    margin-top: 1.25rem;
+    margin-bottom: 0.875rem;
+  }
 }
 
 /* Dark mode support for markdown images */

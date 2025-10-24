@@ -18,23 +18,23 @@
       <!-- Posts in this section -->
       {{ if .RegularPages }}
       <div class="mt-8">
-        <div class="grid gap-6 max-w-4xl mx-auto">
+        <div class="grid gap-8 max-w-4xl mx-auto">
           {{ range .RegularPages }}
-          <article class="border border-slate-700 rounded-lg p-6 hover:border-sky-400 transition-colors bg-slate-800/50">
-            <div class="flex flex-col gap-3">
-              <div class="flex items-start justify-between">
-                <h3 class="text-xl font-bold">
+          <article class="border border-slate-700 rounded-lg p-6 hover:border-sky-400 transition-colors bg-slate-800/50 backdrop-blur-sm">
+            <div class="flex flex-col gap-4">
+              <div class="flex items-start justify-between gap-4">
+                <h3 class="text-xl font-bold flex-1">
                   <a href="{{ .Permalink }}" class="text-blue-400 hover:text-sky-400 transition-colors">{{ .Title }}</a>
                 </h3>
-                <span class="text-sm text-slate-400 whitespace-nowrap ml-4">{{ .Date.Format "Jan 02, 2006" }}</span>
+                <span class="text-sm text-slate-400 whitespace-nowrap">{{ .Date.Format "Jan 02, 2006" }}</span>
               </div>
-              <p class="text-slate-300">{{ .Description }}</p>
+              <p class="text-slate-300 leading-relaxed">{{ .Description }}</p>
               <div class="flex flex-wrap gap-2">
                 {{ range .Params.keywords }}
-                <span class="text-xs bg-slate-700 px-2 py-1 rounded">{{ . }}</span>
+                <span class="text-xs bg-slate-700 px-2 py-1 rounded-full">{{ . }}</span>
                 {{ end }}
               </div>
-              <a href="{{ .Permalink }}" class="text-sky-400 hover:text-sky-300 text-sm font-medium">
+              <a href="{{ .Permalink }}" class="text-sky-400 hover:text-sky-300 text-sm font-medium inline-flex items-center gap-1 self-start">
                 Read More →
               </a>
             </div>
