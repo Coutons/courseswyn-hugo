@@ -1,11 +1,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{{ .Description }}">
+
+{{/* Enhanced SEO Meta Tags */}}
+<meta name="description" content="{{ .Description | default .Site.Params.description }}">
 {{ with .Keywords }}
 <meta name="keywords" content="{{ range $i, $keyword := . }}{{ if $i }}, {{ end }}{{ $keyword }}{{ end }}">
 {{ end }}
 <meta name="author" content="{{ .Site.Params.author | default "CoursesWyn Team" }}">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="{{ .Site.Params.seo.robots | default "index, follow" }}">
+<meta name="googlebot" content="{{ .Site.Params.seo.googlebot | default "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" }}">
+<meta name="bingbot" content="{{ .Site.Params.seo.bingbot | default "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" }}">
 
 <!-- Canonical URL -->
 {{ if .IsHome }}
@@ -16,18 +20,65 @@
   <link rel="canonical" href="{{ .Permalink }}">
 {{ end }}
 
-<!-- Open Graph -->
-<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:url" content="{{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}">
 <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}">
-<meta property="og:description" content="{{ .Description }}">
+<meta property="og:description" content="{{ .Description | default .Site.Params.description }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:image" content="{{ .Site.Params.openGraph.defaultImage | default "/images/og-image.png" | absURL }}">
 
-<!-- Twitter -->
-<meta name="twitter:card" content="summary">
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="{{ .Site.Params.twitterCards.card | default "summary_large_image" }}">
+<meta name="twitter:site" content="{{ .Site.Params.twitterCards.site | default "@CoursesGift" }}">
+<meta name="twitter:creator" content="{{ .Site.Params.twitterCards.creator | default "@CoursesGift" }}">
 <meta name="twitter:url" content="{{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}">
 <meta name="twitter:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}">
-<meta name="twitter:description" content="{{ .Description }}">
+<meta name="twitter:description" content="{{ .Description | default .Site.Params.description }}">
+<meta name="twitter:image" content="{{ .Site.Params.openGraph.defaultImage | default "/images/og-image.png" | absURL }}">
+
+<!-- Schema.org structured data -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "{{ if .IsPage }}Article{{ else }}WebSite{{ end }}",
+    "name": "{{ .Site.Title }}",
+    "description": "{{ .Site.Params.description }}",
+    "url": "{{ .Site.BaseURL }}",
+    "author": {
+        "@type": "Organization",
+        "name": "{{ .Site.Params.author | default "CoursesWyn Team" }}",
+        "url": "{{ .Site.BaseURL }}"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "{{ .Site.Params.author | default "CoursesWyn Team" }}",
+        "url": "{{ .Site.BaseURL }}"
+    },
+    "sameAs": [
+        {{ range $i, $social := .Site.Params.social }}{{ if $i }}, {{ end }}"{{ $social.url }}"{{ end }}
+    ],
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "{{ .Site.BaseURL }}search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+    }
+}
+</script>
+
+{{/* Additional meta tags for articles */}}
+{{ if .IsPage }}
+<meta property="article:author" content="{{ .Site.Params.author | default "CoursesWyn Team" }}">
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+{{ if .Lastmod }}<meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+{{ range .Params.categories }}<meta property="article:section" content="{{ . }}">{{ end }}
+{{ range .Params.tags }}<meta property="article:tag" content="{{ . }}">{{ end }}
+{{ end }}
+
+{{/* GitHub Repository Link for SEO */}}
+{{ if .Site.Params.github_url }}
+<link rel="me" href="{{ .Site.Params.github_url }}">
+{{ end }}
 
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 
