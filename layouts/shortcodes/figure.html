@@ -1,0 +1,25 @@
+{{/* Enhanced Figure Shortcode for Hugo */}}
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+  {{ with .Get "link" }}<a href="{{ . }}">{{ end }}
+    <img
+      src="{{ .Get "src" }}"
+      {{ if or (.Get "alt") (.Get "caption") }}
+      alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" }}{{ end }}"
+      {{ end }}
+      {{ with .Get "width" }}width="{{ . }}"{{ end }}
+      {{ with .Get "height" }}height="{{ . }}"{{ end }}
+      {{ with .Get "loading" }}loading="{{ . }}"{{ else }}loading="lazy"{{ end }}
+      {{ with .Get "style" }}style="{{ . }}"{{ else }}style="max-width: 100%; height: auto;"{{ end }}
+    />
+  {{ if .Get "link" }}</a>{{ end }}
+  {{ if or (.Get "caption") (.Get "attr") }}
+  <figcaption{{ with .Get "attrlink" }} class="md-footer"{{ end }}>
+    {{ .Get "caption" }}
+    {{ with .Get "attr" }}
+    {{ if .Get "attrlink" }}<a href="{{ .Get "attrlink" }}"> {{ end }}
+    {{ . }}
+    {{ if .Get "attrlink" }}</a>{{ end }}
+    {{ end }}
+  </figcaption>
+  {{ end }}
+</figure>
