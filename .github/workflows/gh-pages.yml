@@ -22,7 +22,6 @@ jobs:
         run: |
           rm -f .gitmodules
           rm -rf .git/modules
-          git rm -r --cached themes/stack || true
           git add .
 
       - name: Setup Hugo
