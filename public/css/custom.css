@@ -181,10 +181,44 @@
   }
 }
 
-/* Responsive image improvements */
-img {
-  max-width: 100%;
+/* Styling for images in markdown content */
+.prose-invert img {
+  width: 100%;
   height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  display: block;
+  max-width: 800px;
+  transition: transform 0.3s ease;
+}
+
+.prose-invert img:hover {
+  transform: scale(1.02);
+}
+
+/* Image caption styling */
+.prose-invert img + p, /* Caption after image */
+.prose-invert img + em {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+  font-style: italic;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Dark mode support for markdown images */
+@media (prefers-color-scheme: dark) {
+  .prose-invert img {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Dark mode for image captions */
+  .prose-invert img + p,
+  .prose-invert img + em {
+    color: #9ca3af;
+  }
 }
 
 /* Loading animation for images */
