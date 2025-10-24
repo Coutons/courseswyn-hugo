@@ -47,11 +47,8 @@ params:
   showCategories: false
   social:
     - name: twitter
-      url: https://twitter.com/courseswyn
+      url: https://twitter.com/CoursesGift
     - name: facebook
-      url: https://facebook.com/courseswyn
+      url: https://facebook.com/BestCouponPromo
     - name: youtube
       url: https://youtube.com/@courseswyn
-    - name: instagram
-      url: https://instagram.com/courseswyn
-  disqus: ""

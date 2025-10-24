@@ -53,10 +53,9 @@ We provide honest assessments without bias towards any particular platform or in
 
 Follow our team for the latest course recommendations and learning tips:
 
-- **[Twitter](https://twitter.com/courseswyn)** - Daily course updates and tips
-- **[Facebook](https://facebook.com/courseswyn)** - Community discussions
+- **[Twitter](https://twitter.com/CoursesGift)** - Daily course updates and tips
+- **[Facebook](https://facebook.com/BestCouponPromo)** - Community discussions
 - **[YouTube](https://youtube.com/@courseswyn)** - Video reviews and tutorials
-- **[Instagram](https://instagram.com/courseswyn)** - Visual learning inspiration
 
 ## Get In Touch
 

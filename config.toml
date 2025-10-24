@@ -9,11 +9,11 @@ timeZone = "Asia/Jakarta"
 
   [[params.social]]
     name = "github"
-    url = "https://github.com/courseswyn"
+    url = "https://github.com/Coutons"
 
   [[params.social]]
     name = "twitter"
-    url = "https://twitter.com/courseswyn"
+    url = "https://twitter.com/CoursesGift"
 
   [[params.social]]
     name = "youtube"
@@ -25,8 +25,4 @@ timeZone = "Asia/Jakarta"
 
   [[params.social]]
     name = "facebook"
-    url = "https://facebook.com/courseswyn"
-
-  [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/courseswyn"
+    url = "https://facebook.com/BestCouponPromo"

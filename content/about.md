@@ -58,10 +58,9 @@ Connect with thousands of learners worldwide who trust CoursesWyn for their **on
 
 **Follow us on social media** for the latest course recommendations, learning tips, and exclusive discounts:
 
-- **[Twitter](https://twitter.com/courseswyn)** - Daily course updates and learning tips
-- **[Facebook](https://facebook.com/courseswyn)** - Community discussions and course reviews
+- **[Twitter](https://twitter.com/CoursesGift)** - Daily course updates and learning tips
+- **[Facebook](https://facebook.com/BestCouponPromo)** - Community discussions and course reviews
 - **[YouTube](https://youtube.com/@courseswyn)** - Video course reviews and tutorials
-- **[Instagram](https://instagram.com/courseswyn)** - Visual learning inspiration and success stories
 
 ## Start Your Learning Journey Today
 

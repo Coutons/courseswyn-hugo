@@ -73,7 +73,7 @@ Know of amazing courses that should be featured? Let us know and we'll review th
 Stay updated with the latest course recommendations and learning tips:
 
 - **[Twitter](https://twitter.com/CoursesGift)** - Daily updates and quick tips
-- **[Facebook](https://facebook.com/bestcouponpromo)** - Community discussions and announcements
+- **[Facebook](https://facebook.com/BestCouponPromo)** - Community discussions and announcements
 - **[YouTube](https://youtube.com/@courseswyn)** - Video tutorials and course reviews
 
 ## Frequently Asked Questions
