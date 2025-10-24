@@ -1,8 +1,8 @@
 ---
 title: "Top AI and Machine Learning Courses on Udemy 2025"
 slug: "top-ai-machine-learning-courses-udemy"
-date: 2025-10-25T14:00:00+07:00
-lastmod: 2025-10-25T14:00:00+07:00
+date: 2025-10-24T14:00:00+07:00
+lastmod: 2025-10-24T14:00:00+07:00
 draft: false
 layout: "post"
 showReadingTime: true
