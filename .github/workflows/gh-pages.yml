@@ -3,11 +3,17 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]  # Hanya trigger di branch main
-  workflow_dispatch:  # Memungkinkan trigger manual
+    branches: [ "main" ]
+    paths:
+      - 'content/**'
+      - 'static/**'
+      - 'archetypes/**'
+      - 'config.toml'
+      - 'themes/**'
+  workflow_dispatch:  # Manual trigger
 
 permissions:
-  contents: write  # Memberikan izin tulis ke workflow
+  contents: write
 
 jobs:
   deploy:
