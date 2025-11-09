@@ -1,0 +1,44 @@
+baseURL = "https://courseswyn.com/"
+languageCode = "en-us"
+title = "CoursesWyn - Best Udemy Courses & Reviews"
+theme = "clarity"
+timeZone = "Asia/Jakarta"
+publishDir = "public"
+
+[outputs]
+home = ["HTML", "RSS"]
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+
+[markup.goldmark.extensions]
+  typographer = true
+
+[markup.goldmark.parser.attribute]
+  block = true
+  title = true
+
+[permalinks]
+  posts = "/:slug/"
+  page = "/:slug/"
+  categories = "/categories/:slug/"
+  tags = "/tags/:slug/"
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"

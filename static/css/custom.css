@@ -1,6 +1,10 @@
 /* Custom styles for CoursesWyn theme */
 
 /* Style links within post content to be blue */
+/* Custom CSS for Clarity Theme */
+/* Add your custom styles below this line */
+
+/* Custom link styles */
 .prose-invert a {
   color: #60a5fa; /* blue-400 */
   text-decoration: none;
@@ -11,7 +15,7 @@
   text-decoration: underline;
 }
 
-/* Style code blocks and pre elements */
+/* Code block styling */
 .prose-invert pre {
   background-color: #1e293b; /* slate-800 */
   border: 1px solid #334155; /* slate-700 */

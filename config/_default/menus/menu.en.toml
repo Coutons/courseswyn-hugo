@@ -1,0 +1,41 @@
+# Main navigation menu
+[[main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[main]]
+  name = "Courses"
+  url = "/categories/"
+  weight = 2
+
+[[main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
+
+[[main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 4
+
+# Social media links
+[[social]]
+  name = "github"
+  url = "https://github.com/Coutons"
+  weight = 1
+
+[[social]]
+  name = "twitter"
+  url = "https://twitter.com/CoursesGift"
+  weight = 2
+
+[[social]]
+  name = "youtube"
+  url = "https://youtube.com/@courseswyn"
+  weight = 3
+
+[[social]]
+  name = "rss"
+  url = "/index.xml"
+  weight = 4

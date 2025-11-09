@@ -1,9 +1,0 @@
-{{/* Gallery Shortcode Template */}}
-<div class="gallery-container {{ with .Get "class" }}{{ . }}{{ end }}">
-  {{ if .Get "caption" }}
-  <h3 class="gallery-caption">{{ .Get "caption" }}</h3>
-  {{ end }}
-  <div class="gallery-grid">
-    {{ .Inner }}
-  </div>
-</div>
