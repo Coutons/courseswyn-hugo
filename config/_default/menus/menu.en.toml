@@ -1,38 +1,33 @@
 # Main navigation menu
 [[main]]
+  identifier = "home"
   name = "Home"
   url = "/"
   weight = 1
-  identifier = "home"
 
 [[main]]
+  identifier = "categories"
   name = "Categories"
   url = "/categories/"
   weight = 2
-  identifier = "categories"
 
 [[main]]
+  identifier = "about"
   name = "About"
   url = "/pages/about/"
   weight = 3
-
-# Dropdown menu for legal pages
-[[main]]
-  name = "Legal"
-  weight = 100
-  hasChildren = true
   
-  [[main]]
-    parent = "Legal"
-    name = "Terms of Service"
-    url = "/pages/terms/"
-    weight = 1
-    
-  [[main]]
-    parent = "Legal"
-    name = "Privacy Policy"
-    url = "/pages/privacy/"
-    weight = 2
+[[main]]
+  identifier = "terms"
+  name = "Terms"
+  url = "/pages/terms/"
+  weight = 4
+  
+[[main]]
+  identifier = "privacy"
+  name = "Privacy"
+  url = "/pages/privacy/"
+  weight = 5
 
 # Social media links (will appear as icons in header)
 [[social]]
