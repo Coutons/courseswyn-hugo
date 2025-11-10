@@ -1,0 +1,8 @@
+{{- $params := site.Params }}
+{{- $title := .Title }}
+{{- $siteTitle := "CoursesWyn" }}
+{{- if and $title (ne (lower $title) (lower $siteTitle)) }}
+  <title>{{ $title }} | {{ $siteTitle }}</title>
+{{- else }}
+  <title>{{ $siteTitle }}</title>
+{{- end }}
