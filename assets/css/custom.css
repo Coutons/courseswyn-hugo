@@ -1,3 +1,8 @@
+/* Hide duplicate menu in footer */
+.footer .menu {
+    display: none !important;
+}
+
 /* Header and Logo Styling */
 .header {
     padding: 1rem 2rem !important;
