@@ -12,9 +12,27 @@
   identifier = "categories"
 
 [[main]]
-  name = "About"
-  url = "/about/"
+  name = "Info"
   weight = 3
+  hasChildren = true
+  
+  [[main]]
+    parent = "Info"
+    name = "About"
+    url = "/about/"
+    weight = 1
+    
+  [[main]]
+    parent = "Info"
+    name = "Terms of Service"
+    url = "/pages/terms/"
+    weight = 2
+    
+  [[main]]
+    parent = "Info"
+    name = "Privacy Policy"
+    url = "/pages/privacy/"
+    weight = 3
 
 [[main]]
   name = "Contact"
