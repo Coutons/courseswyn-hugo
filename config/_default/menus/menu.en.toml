@@ -24,20 +24,8 @@
 
 [[main]]
   name = "About"
+  url = "/pages/about/"
   weight = 3
-  hasChildren = true
-  
-  [[main]]
-    parent = "About"
-    name = "Our Story"
-    url = "/pages/about/"
-    weight = 1
-    
-  [[main]]
-    parent = "About"
-    name = "Contact Us"
-    url = "/pages/contact/"
-    weight = 2
 
 # Dropdown menu for legal pages
 [[main]]
