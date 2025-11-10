@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "https://courseswyn.com/"
 languageCode = "en-us"
-title = "CoursesWyn - Best Udemy Courses & Reviews"
+title = "CoursesWyn"
 theme = "clarity"
 timeZone = "Asia/Jakarta"
 publishDir = "public"
