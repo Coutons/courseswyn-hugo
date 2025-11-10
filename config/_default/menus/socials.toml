@@ -1,0 +1,30 @@
+# Social media links
+[[social]]
+  name = "twitter"
+  url = "#"
+  weight = 1
+  icon = "twitter"
+
+[[social]]
+  name = "facebook"
+  url = "#"
+  weight = 2
+  icon = "facebook"
+
+[[social]]
+  name = "instagram"
+  url = "#"
+  weight = 3
+  icon = "instagram"
+
+[[social]]
+  name = "youtube"
+  url = "#"
+  weight = 4
+  icon = "youtube"
+
+[[social]]
+  name = "rss"
+  url = "/index.xml"
+  weight = 5
+  icon = "rss"

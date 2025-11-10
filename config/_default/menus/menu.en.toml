@@ -3,20 +3,39 @@
   name = "Home"
   url = "/"
   weight = 1
+  identifier = "home"
 
 [[main]]
   name = "Courses"
-  url = "/categories/"
+  url = "/courses/"
   weight = 2
+  identifier = "courses"
 
 [[main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 3
+  identifier = "categories"
+
+# Footer menu
+[[footer]]
   name = "About"
   url = "/about/"
-  weight = 3
+  weight = 1
 
-[[main]]
+[[footer]]
   name = "Contact"
   url = "/contact/"
+  weight = 2
+
+[[footer]]
+  name = "Privacy Policy"
+  url = "/privacy/"
+  weight = 3
+
+[[footer]]
+  name = "Terms of Service"
+  url = "/terms/"
   weight = 4
 
 # Social media links

@@ -10,16 +10,31 @@
   # Logo settings
   logo = "/images/logo.svg"
   logoText = "CoursesWyn"
-  logoWidth = 180
-  logoHeight = 45
+  logoWidth = 150
+  logoHeight = 40
   logoTitle = "CoursesWyn - Best Online Course Reviews"
   
   # Header settings
   [params.header]
     title = "CoursesWyn"
-    subtitle = "Best Online Course Reviews & Recommendations"
-    logoWidth = "45px"
-    logoHeight = "45px"
+    subtitle = ""  # Empty to save space
+    logoWidth = "40px"
+    logoHeight = "40px"
+    showSearch = true
+    showSocial = true
+  
+  # Footer settings
+  [params.footer]
+    copyright = "© 2025 CoursesWyn - All rights reserved"
+    showSocial = true
+    
+  # Social media settings
+  [params.social]
+    twitter = "#"
+    facebook = "#"
+    instagram = "#"
+    youtube = "#"
+    rss = true
     
   # Site settings
   mainSections = ["posts"]
