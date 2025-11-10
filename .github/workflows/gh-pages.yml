@@ -17,16 +17,17 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          submodules: false
+          submodules: 'recursive'
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Remove submodule config
+      - name: Initialize and update submodules
         run: |
-          rm -f .gitmodules
-          rm -rf .git/modules
-          git add .
+          git submodule sync --recursive
+          git submodule update --init --recursive
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -34,14 +35,22 @@ jobs:
           hugo-version: '0.125.6'  # Using a specific version for stability
           extended: true
 
-      - name: Install PostCSS
-        run: npm install -g postcss postcss-cli autoprefixer
+      - name: Install dependencies
+        run: |
+          npm install -g postcss postcss-cli autoprefixer
+          npm install -g @fullhuman/postcss-purgecss
 
       - name: Build
         run: |
+          # Set safe directory for Git
           git config --global --add safe.directory /__w/courseswyn-hugo/courseswyn-hugo
-          git submodule update --init --recursive
-          hugo --minify --gc
+          
+          # Show theme info
+          ls -la themes/
+          
+          # Build with detailed output
+          hugo version
+          hugo --minify --gc --verbose
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
