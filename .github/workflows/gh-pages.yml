@@ -40,11 +40,14 @@ jobs:
           hugo-version: '0.125.6'  # Using a specific version for stability
           extended: true
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          
       - name: Install dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y postcss postcss-cli autoprefixer
-          npm install -g postcss postcss-cli autoprefixer
+          npm install -g postcss-cli autoprefixer
 
       - name: Build
         run: |
@@ -56,8 +59,17 @@ jobs:
           
           # Build with detailed output and explicit theme path
           hugo version
+          
+          # Install local dependencies if needed
+          if [ -f "package.json" ]; then
+            npm ci
+          fi
+          
           # Build with theme from local directory
           hugo --minify --gc --themesDir=./themes --theme=clarity --verbose
+          
+          # Verify public directory
+          ls -la public/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

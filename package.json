@@ -1,0 +1,13 @@
+{
+  "name": "courseswyn-hugo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CoursesWyn Hugo Site",
+  "scripts": {
+    "build": "hugo --minify --gc --themesDir=./themes --theme=clarity"
+  },
+  "dependencies": {
+    "postcss-cli": "^11.1.0",
+    "autoprefixer": "^10.4.16"
+  }
+}
