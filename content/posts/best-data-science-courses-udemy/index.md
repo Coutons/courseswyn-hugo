@@ -11,7 +11,7 @@ categories: ["udemy-reviews"]
 tags: ["data science"]
 aliases:
   - /2025/10/10-best-data-science-courses-on-udemy-2025/
-seo_title: "10 Best Data Science Courses on Udemy 2025 | CoursesWyn"
+seo_title: "Best Data Science Courses on Udemy 2025 | CoursesWyn"
 seo_description: "Discover the top 10 best data science courses on Udemy for 2025. Learn machine learning, AI, Python, and data analysis from top instructors."
 
 ---

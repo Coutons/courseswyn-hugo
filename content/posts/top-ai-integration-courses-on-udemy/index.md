@@ -1,5 +1,5 @@
 ---
-title: "Top AI Integration Courses on Udemy in 2026"
+title: "Top AI Integration Courses on Udemy 2026 | CoursesWyn"
 slug: "top-ai-integration-courses-udemy"
 date: 2025-10-28T10:00:00+07:00
 lastmod: 2025-11-10T11:36:00+07:00

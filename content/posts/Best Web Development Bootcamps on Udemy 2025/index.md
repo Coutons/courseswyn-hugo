@@ -1,5 +1,5 @@
 ---
-title: "Best Web Development Bootcamps on Udemy 2026"
+title: "Best Web Development Bootcamps on Udemy 2026 | CoursesWyn"
 slug: "best-web-development-bootcamps-udemy"
 date: 2025-10-24T21:22:00+07:00
 lastmod: 2025-11-10T11:36:00+07:00

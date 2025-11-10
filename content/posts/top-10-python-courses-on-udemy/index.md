@@ -1,5 +1,5 @@
 ---
-title: "Top 10 Python Courses on Udemy 2025: From Beginner to Pro"
+title: "Top 10 Python Courses on Udemy 2025 | CoursesWyn"
 slug: "top-10-python-courses-on-udemy"
 date: 2025-10-24T14:27:00+07:00
 lastmod: 2025-10-24T14:27:00+07:00

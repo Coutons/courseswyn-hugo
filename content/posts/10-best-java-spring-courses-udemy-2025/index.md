@@ -17,12 +17,12 @@ aliases:
 
 # SEO Metadata
 seo_title: "10 Best Java Spring Courses on Udemy (2026) | Expert-Reviewed"
-seo_description: "Discover the top-rated Java Spring courses on Udemy for 2025. Compare Spring Boot, Spring Security, and Spring Framework courses with in-depth reviews and recommendations."
+seo_description: "Discover the top-rated Java Spring courses on Udemy for 2026. Compare Spring Boot, Spring Security, and Spring Framework courses with in-depth reviews and recommendations."
 seo_keywords: ["best spring boot course", "learn spring framework", "java spring courses 2026", "udemy spring boot", "spring security tutorial"]
 
 # Open Graph / Social Media
-og_title: "10 Best Java Spring Courses on Udemy (2025) | Expert Picks"
-og_description: "Master Spring Framework with these top-rated Udemy courses. Compare features, prices, and student reviews to find the perfect Spring Boot course for your needs in 2025."
+og_title: "10 Best Java Spring Courses on Udemy 2026 | CoursesWyn | Expert Picks"
+og_description: "Master Spring Framework with these top-rated Udemy courses. Compare features, prices, and student reviews to find the perfect Spring Boot course for your needs in 2026."
 og_image: "https://yourdomain.com/images/spring-boot-udemy-courses.jpg"
 og_type: "article"
 twitter_card: "summary_large_image"
