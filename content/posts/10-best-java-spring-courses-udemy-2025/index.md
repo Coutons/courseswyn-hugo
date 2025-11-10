@@ -1,5 +1,5 @@
 ---
-title: "10 Best Java Spring Courses on Udemy (2026) | Learn Spring Boot & More"
+title: "10 Best Java Spring Courses on Udemy (2026)"
 slug: "best-java-spring-courses-udemy"
 date: 2020-01-01T11:00:00+07:00
 lastmod: 2026-11-10T11:36:00+07:00
@@ -21,7 +21,7 @@ seo_description: "Discover the top-rated Java Spring courses on Udemy for 2026. 
 seo_keywords: ["best spring boot course", "learn spring framework", "java spring courses 2026", "udemy spring boot", "spring security tutorial"]
 
 # Open Graph / Social Media
-og_title: "10 Best Java Spring Courses on Udemy 2026 | CoursesWyn | Expert Picks"
+og_title: "10 Best Java Spring Courses on Udemy 2026 | Expert Picks"
 og_description: "Master Spring Framework with these top-rated Udemy courses. Compare features, prices, and student reviews to find the perfect Spring Boot course for your needs in 2026."
 og_image: "https://yourdomain.com/images/spring-boot-udemy-courses.jpg"
 og_type: "article"

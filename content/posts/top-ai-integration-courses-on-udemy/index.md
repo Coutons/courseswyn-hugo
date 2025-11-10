@@ -1,5 +1,5 @@
 ---
-title: "Top AI Integration Courses on Udemy 2026 | CoursesWyn"
+title: "Top AI Integration Courses on Udemy 2026"
 slug: "top-ai-integration-courses-udemy"
 date: 2025-10-28T10:00:00+07:00
 lastmod: 2025-11-10T11:36:00+07:00
@@ -12,7 +12,7 @@ categories: ["udemy reviews"]
 tags: ["ai integration"]
 author: "CoursesWyn Team"
 keywords: ["best ai integration courses udemy 2026", "learn ai online", "udemy ai bootcamp", "chatgpt integration", "generative ai courses", "top udemy ai courses", "ai for business", "machine learning integration", "udemy ai reviews", "ai course reviews 2025"]
-seo_title: "Top AI Integration Courses on Udemy 2026: Complete Guide to Mastering AI | CoursesWyn"
+seo_title: "Top AI Integration Courses on Udemy 2026 | Expert Reviews | CoursesWyn"
 seo_description: "Discover the top 10 AI integration courses on Udemy for 2026. Learn ChatGPT, generative AI, machine learning, and business applications with hands-on projects and expert instructors. Get honest reviews and recommendations."
 
 # FAQ Section for Schema Markup

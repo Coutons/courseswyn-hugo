@@ -1,5 +1,5 @@
 ---
-title: "Best Web Development Bootcamps on Udemy 2026 | CoursesWyn"
+title: "Best Web Development Bootcamps on Udemy 2026"
 slug: "best-web-development-bootcamps-udemy"
 date: 2025-10-24T21:22:00+07:00
 lastmod: 2025-11-10T11:36:00+07:00
@@ -12,7 +12,7 @@ categories: ["udemy reviews"]
 tags: ["web development"]
 author: "CoursesWyn Team"
 keywords: ["best web development courses udemy 2026", "learn web development online", "udemy web development bootcamp", "full stack web development", "react courses udemy", "node js courses", "javascript bootcamp", "web development tutorials", "udemy web dev reviews", "web development course reviews 2025"]
-seo_title: "Best Web Development Bootcamps on Udemy 2026: Full-Stack Guide | CoursesWyn"
+seo_title: "Best Web Development Bootcamps on Udemy 2026 | Learn Full Stack Development | CoursesWyn"
 seo_description: "Discover the top 10 web development bootcamps on Udemy for 2026. Perfect for beginners to advanced learners aiming for careers in full-stack development, React, Node.js, and modern web technologies."
 
 # FAQ Section for Schema Markup

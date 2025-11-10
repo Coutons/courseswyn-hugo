@@ -1,5 +1,5 @@
 ---
-title: "Best Data Structures & Algorithms Courses on Udemy (2026) | CoursesWyn"
+title: "Best Data Structures & Algorithms Courses on Udemy (2026)"
 slug: "best-data-structures-udemy-2026"
 date: 2025-11-10T11:35:00+07:00
 lastmod: 2025-11-10T11:35:00+07:00
