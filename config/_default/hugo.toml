@@ -65,7 +65,7 @@ publishDir = "public"
   posts = "/:slug/"
   page = "/:slug/"
   categories = "/categories/:slug/"
-  tags = "/tags/:slug/"
+  tags = "/tags/:title/"  # Use :title to preserve spaces in tags
 
 # Sitemap
 [sitemap]
