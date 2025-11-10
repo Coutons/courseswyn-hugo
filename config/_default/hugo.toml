@@ -86,3 +86,30 @@ publishDir = "public"
 # Additional parameters
 [params]
   enableRobotsTXT = true
+
+# Disable automatic menu generation for pages
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+    
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+    
+  [[menu.main]]
+    name = "About"
+    url = "/pages/about/"
+    weight = 3
+    
+  [[menu.main]]
+    name = "Terms"
+    url = "/pages/terms/"
+    weight = 4
+    
+  [[menu.main]]
+    name = "Privacy"
+    url = "/pages/privacy/"
+    weight = 5
