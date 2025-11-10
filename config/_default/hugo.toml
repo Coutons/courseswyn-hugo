@@ -1,3 +1,4 @@
+# Site settings
 baseURL = "https://courseswyn.com/"
 languageCode = "en-us"
 title = "CoursesWyn - Best Udemy Courses & Reviews"
@@ -5,31 +6,48 @@ theme = "clarity"
 timeZone = "Asia/Jakarta"
 publishDir = "public"
 
+# Build settings
 [build]
   useResourceCacheWhen = "fallback"
   writeStats = true
   noChmod = true
   noTimes = true
   
+# Module configuration
 [module]
   [module.hugoVersion]
     extended = true
     min = "0.128.0"
 
+# Markup settings
 [markup]
+  # Goldmark configuration
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
     [markup.goldmark.parser]
       autoHeadingID = true
       autoHeadingIDType = "github"
+    
+    # Goldmark extensions
+    [markup.goldmark.extensions]
+      typographer = true
+    
+    # Goldmark parser attributes
+    [markup.goldmark.parser.attribute]
+      block = true
+      title = true
   
+  # Syntax highlighting
   [markup.highlight]
     codeFences = true
     guessSyntax = true
     lineNos = true
     style = "monokai"
+    tabWidth = 2
+    lineNumbersInTable = true
 
+# Output formats
 [outputs]
   home = ["HTML", "RSS"]
   page = ["HTML"]
@@ -37,41 +55,29 @@ publishDir = "public"
   taxonomy = ["HTML", "RSS"]
   term = ["HTML", "RSS"]
 
+# Services
 [services]
   [services.googleAnalytics]
     disable = true
 
-[markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    lineNos = true
-    style = "monokai"
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-    [markup.goldmark.parser]
-      autoHeadingID = true
-      autoHeadingIDType = "github"
-
-[markup.goldmark.extensions]
-  typographer = true
-
-[markup.goldmark.parser.attribute]
-block = true
-title = true
-
+# Permalinks
 [permalinks]
-posts = "/:slug/"
-page = "/:slug/"
-categories = "/categories/:slug/"
-tags = "/tags/:slug/"
+  posts = "/:slug/"
+  page = "/:slug/"
+  categories = "/categories/:slug/"
+  tags = "/tags/:slug/"
 
+# Sitemap
 [sitemap]
-changefreq = "weekly"
-priority = 0.5
-filename = "sitemap.xml"
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
+# Taxonomies
 [taxonomies]
-tag = "tags"
-category = "categories"
+  tag = "tags"
+  category = "categories"
+
+# Additional parameters
+[params]
+  enableRobotsTXT = true
