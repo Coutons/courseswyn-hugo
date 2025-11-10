@@ -8,4 +8,4 @@ description: "Our top course recommendations across all categories"
 
 Discover our handpicked selection of the best courses based on student reviews, content quality, and learning outcomes.
 
-{{< tag-list tag="top-pick" >}}
+{{< recent-posts tag="top-pick" >}}
