@@ -1,39 +1,22 @@
 # .github/workflows/gh-pages.yml
 name: Deploy to GitHub Pages
 
+# Hanya jalankan saat push ke branch main atau secara manual
 on:
   push:
-    branches: [ "main" ]
-    # Hanya jalankan jika ada perubahan pada file yang relevan
-    paths:
-      - '.github/workflows/**'
-      - 'content/**'
-      - 'layouts/**'
-      - 'static/**'
-      - 'config/**'
-      - 'themes/**'
-      - '!README.md'
-      - '!LICENSE'
-      - '!.gitignore'
-  
-  # Memungkinkan trigger manual dari GitHub UI
-  workflow_dispatch:
-    inputs:
-      reason:
-        description: 'Reason for manual run'
-        required: false
-        default: 'Manual trigger'
+    branches: ["main"]
+  workflow_dispatch:  # Untuk trigger manual
 
-# Atur izin yang diperlukan
+# Izin minimal yang diperlukan
 permissions:
   contents: write
   pages: write
   id-token: write
 
-# Optimasi: Hanya satu workflow yang berjalan dalam satu waktu
+# Cegah multiple runs bersamaan
 concurrency:
   group: "pages"
-  cancel-in-progress: true  # Batalkan run yang sedang berjalan jika ada commit baru
+  cancel-in-progress: true
 
 jobs:
   deploy:
