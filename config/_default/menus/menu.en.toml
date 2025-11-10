@@ -6,20 +6,38 @@
   identifier = "home"
 
 [[main]]
-  name = "Categories"
-  url = "/categories/"
+  name = "Courses"
   weight = 2
-  identifier = "categories"
+  hasChildren = true
+  
+  [[main]]
+    parent = "Courses"
+    name = "All Categories"
+    url = "/categories/"
+    weight = 1
+  
+  [[main]]
+    parent = "Courses"
+    name = "Top Picks"
+    url = "/tags/top-pick/"
+    weight = 2
 
 [[main]]
   name = "About"
-  url = "/pages/about/"
   weight = 3
-
-[[main]]
-  name = "Contact"
-  url = "/pages/contact/"
-  weight = 4
+  hasChildren = true
+  
+  [[main]]
+    parent = "About"
+    name = "Our Story"
+    url = "/pages/about/"
+    weight = 1
+    
+  [[main]]
+    parent = "About"
+    name = "Contact Us"
+    url = "/pages/contact/"
+    weight = 2
 
 # Dropdown menu for legal pages
 [[main]]

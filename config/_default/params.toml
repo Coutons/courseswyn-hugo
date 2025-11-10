@@ -8,8 +8,8 @@
   favicon = "favicon.ico"
   
   # Logo settings
-  logo = "images/logo.png"
-  logoMobile = "images/logo.png"
+  logo = "images/logo.svg"
+  logoMobile = "images/logo.svg"
   logoWidth = "40"
   logoHeight = "40"
   logoTitle = "CoursesWyn"
