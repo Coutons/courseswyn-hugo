@@ -2,7 +2,7 @@
 baseURL = "https://courseswyn.com/"
 languageCode = "en-us"
 description = "Expert reviews of the best Udemy courses in 2025. Ranked by ratings, enrollment, and real projects – from AI & Python to web dev, data science, and beyond."
-title = "Best Udemy Courses 2025: Expert Reviews & Rankings"
+title = "CoursesWyn"
 theme = "clarity"
 timeZone = "Asia/Jakarta"
 publishDir = "public"
