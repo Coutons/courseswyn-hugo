@@ -1,0 +1,40 @@
+{{ if .IsPage }}
+{{ $faq := slice }}
+{{ if .Params.faq }}
+  {{ $faq = .Params.faq }}
+{{ else if eq .Type "posts" }}
+  {{ $faq = slice
+    (dict "question" (print "What makes these the best Udemy courses in " (dateFormat "January 2006" .Date) "?")
+          "answer" "We evaluate courses based on instructor expertise, course content quality, student reviews, practical applications, and regular updates to ensure they meet current industry standards.")
+    (dict "question" "How often is this list updated?"
+          "answer" "We update our course recommendations monthly to reflect new releases, price changes, and updated content from instructors.")
+    (dict "question" "Do these courses offer certificates?"
+          "answer" "Yes, all recommended Udemy courses provide a certificate of completion that you can add to your LinkedIn profile or resume.")
+    (dict "question" "Can I get a refund if I'm not satisfied with a course?"
+          "answer" "Udemy offers a 30-day money-back guarantee for all courses. If you're not satisfied, you can request a full refund within 30 days of purchase.")
+    (dict "question" "Are there any prerequisites for these courses?"
+          "answer" "Prerequisites vary by course. We always list any required knowledge in our reviews to help you choose the right course for your skill level.")
+  }}
+{{ end }}
+
+{{ if $faq }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{ range $index, $item := $faq }}
+    {
+      "@type": "Question",
+      "name": "{{ $item.question | safeJS }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ $item.answer | safeJS }}"
+      }
+    }{{ if ne (add $index 1) (len $faq) }},{{ end }}
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
+{{ end }}

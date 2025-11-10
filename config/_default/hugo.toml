@@ -13,7 +13,7 @@ publishDir = "public"
   writeStats = true
   noChmod = true
   noTimes = true
-  
+
 # Module configuration
 [module]
   [module.hugoVersion]
@@ -83,10 +83,6 @@ publishDir = "public"
   tag = "tags"
   category = "categories"
 
-# Additional parameters
-[params]
-  enableRobotsTXT = true
-
 # Menu configuration
 [menu]
   [[menu.main]]
@@ -118,3 +114,68 @@ publishDir = "public"
     name = "Privacy"
     url = "/pages/privacy/"
     weight = 5
+
+# Site parameters
+[params]
+  # Basic info
+  env = "production"
+  description = "Discover the best online courses and expert reviews for 2025. Learn programming, data science, AI, and more with our curated course recommendations."
+  author = "CoursesWyn Team"
+  themeVariant = "classic"
+  favicon = "favicon.ico"
+  
+  # Logo settings
+  logo = "images/logo.svg"
+  logoMobile = "images/logo.svg"
+  logoWidth = "40"
+  logoHeight = "40"
+  logoTitle = "CoursesWyn"
+  logoTitleDisplay = false
+  
+  # Header settings
+  [params.header]
+    title = "CoursesWyn"
+    subtitle = ""  # Empty to save space
+    logoWidth = "40px"
+    logoHeight = "40px"
+    showSearch = true
+    showSocial = true
+  
+  # Footer settings
+  [params.footer]
+    copyright = "© 2025 CoursesWyn - All rights reserved"
+    showSocial = true
+    
+  # Social media settings
+  [params.social]
+    twitter = "#"
+    facebook = "#"
+    instagram = "#"
+    youtube = "#"
+    rss = true
+    
+  # Site settings
+  mainSections = ["posts"]
+  showMenu = true
+  showBreadcrumb = true
+  showTaxonomy = true
+  
+  # Search
+  enableSearch = true
+  
+  # SEO Settings
+  [params.seo]
+    twitter = "@CoursesGift"
+    og_image = "images/og-image.jpg"
+    og_locale = "en_US"
+    og_type = "website"
+    
+  # Structured Data / Schema.org
+  [params.schema]
+    enable = true
+    type = "WebSite"
+    description = "Expert-curated list of the best Udemy courses in 2025 for tech professionals and learners"
+  
+  # Build settings
+  [params.build]
+    enableRobotsTXT = true
