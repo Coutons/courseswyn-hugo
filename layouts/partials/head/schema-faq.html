@@ -42,6 +42,15 @@
   "description": {{ $.Description | jsonify }},
   "aggregateRating": {
     "@type": "AggregateRating",
+    "itemReviewed": {
+      "@type": "Course",
+      "name": {{ $.Title | jsonify }},
+      "provider": {
+        "@type": "Organization",
+        "name": "Udemy",
+        "sameAs": "https://www.udemy.com/"
+      }
+    },
     "ratingValue": "{{ .ratingValue }}",
     "reviewCount": "{{ .reviewCount }}",
     "bestRating": "5",
