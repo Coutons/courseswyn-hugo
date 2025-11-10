@@ -19,43 +19,34 @@ publishDir = "public"
   [module.hugoVersion]
     extended = true
 
-# Disable automatic menu for pages
-[markup.goldmark.renderer]
-  unsafe = true
-
-[markup.goldmark.parser.attribute]
-  block = true
-  title = true
-
-# Disable automatic menu for pages in content/pages/
-[markup.goldmark.parser]
-  autoHeadingID = true
-  autoHeadingIDType = "github"
-
-[markup.tableOfContents]
-  endLevel = 6
-  ordered = false
-  startLevel = 2
-    min = "0.128.0"
-
 # Markup settings
 [markup]
   # Goldmark configuration
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    
     [markup.goldmark.parser]
       autoHeadingID = true
       autoHeadingIDType = "github"
     
-    # Goldmark extensions
-    [markup.goldmark.extensions]
-      typographer = true
-    
-    # Goldmark parser attributes
     [markup.goldmark.parser.attribute]
       block = true
       title = true
+    
+    [markup.goldmark.extensions]
+      typographer = true
+  
+  [markup.tableOfContents]
+    endLevel = 6
+    ordered = false
+    startLevel = 2
+
+# Module configuration
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.128.0"
   
   # Syntax highlighting
   [markup.highlight]
