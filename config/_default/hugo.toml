@@ -1,8 +1,17 @@
 baseURL = "https://courseswyn.com/"
 languageCode = "en-us"
 title = "CoursesWyn - Best Udemy Courses & Reviews"
-theme = "clarity"
+theme = ["clarity"]  # Use array for themes
 timeZone = "Asia/Jakarta"
+
+# Enable GitInfo for last modified date
+gitInfo:
+  enable = true
+
+# Configure build
+build:
+  useResourceCacheWhen = "fallback"  # Use cached resources when possible
+  writeStats = true  # Write build stats to disk
 publishDir = "public"
 
 [outputs]

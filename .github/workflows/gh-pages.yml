@@ -12,27 +12,25 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: 'recursive'
+          submodules: recursive
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Initialize theme
-        run: |
-          # Clone theme if not exists
-          if [ ! -d "themes/clarity" ]; then
-            git clone https://github.com/nanxiaobei/hugo-clarity themes/clarity
-          fi
-          
-          # Show theme info
-          ls -la themes/clarity
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -40,40 +38,32 @@ jobs:
           hugo-version: '0.125.6'  # Using a specific version for stability
           extended: true
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20.x'
-          
-      - name: Install dependencies
+      - name: Install PostCSS
         run: |
-          npm install -g postcss-cli autoprefixer
+          npm install -g postcss postcss-cli autoprefixer
 
       - name: Build
         run: |
-          # Set safe directory for Git
-          git config --global --add safe.directory /__w/courseswyn-hugo/courseswyn-hugo
-          
           # Show theme info
           ls -la themes/
           
-          # Build with detailed output and explicit theme path
+          # Build with detailed output
           hugo version
           
-          # Install local dependencies if needed
-          if [ -f "package.json" ]; then
-            npm ci
-          fi
-          
-          # Build with theme from local directory
-          hugo --minify --gc --themesDir=./themes --theme=clarity --verbose
+          # Build the site
+          hugo --minify --gc --cleanDestinationDir --verbose
           
           # Verify public directory
           ls -la public/
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: gh-pages
+          path: './public'
+          
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
