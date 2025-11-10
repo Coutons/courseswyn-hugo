@@ -6,21 +6,10 @@
   identifier = "home"
 
 [[main]]
-  name = "Courses"
+  name = "Categories"
+  url = "/categories/"
   weight = 2
-  hasChildren = true
-  
-  [[main]]
-    parent = "Courses"
-    name = "All Categories"
-    url = "/categories/"
-    weight = 1
-  
-  [[main]]
-    parent = "Courses"
-    name = "Top Picks"
-    url = "/tags/top-pick/"
-    weight = 2
+  identifier = "categories"
 
 [[main]]
   name = "About"
