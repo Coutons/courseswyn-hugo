@@ -1,18 +1,17 @@
 baseURL = "https://courseswyn.com/"
 languageCode = "en-us"
 title = "CoursesWyn - Best Udemy Courses & Reviews"
-theme = ["clarity"]  # Use array for themes
+theme = "clarity"
 timeZone = "Asia/Jakarta"
-
-# Enable GitInfo for last modified date
-gitInfo:
-  enable = true
-
-# Configure build
-build:
-  useResourceCacheWhen = "fallback"  # Use cached resources when possible
-  writeStats = true  # Write build stats to disk
 publishDir = "public"
+
+[gitInfo]
+enable = true
+
+[build]
+useResourceCacheWhen = "fallback"
+timeout = "30s"
+writeStats = true
 
 [outputs]
 home = ["HTML", "RSS"]
@@ -34,20 +33,20 @@ home = ["HTML", "RSS"]
   typographer = true
 
 [markup.goldmark.parser.attribute]
-  block = true
-  title = true
+block = true
+title = true
 
 [permalinks]
-  posts = "/:slug/"
-  page = "/:slug/"
-  categories = "/categories/:slug/"
-  tags = "/tags/:slug/"
+posts = "/:slug/"
+page = "/:slug/"
+categories = "/categories/:slug/"
+tags = "/tags/:slug/"
 
 [sitemap]
-  changefreq = "weekly"
-  priority = 0.5
-  filename = "sitemap.xml"
+changefreq = "weekly"
+priority = 0.5
+filename = "sitemap.xml"
 
 [taxonomies]
-  tag = "tags"
-  category = "categories"
+tag = "tags"
+category = "categories"

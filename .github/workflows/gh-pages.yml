@@ -50,11 +50,17 @@ jobs:
           # Build with detailed output
           hugo version
           
-          # Build the site
-          hugo --minify --gc --cleanDestinationDir --verbose
+          # Build the site for production
+          echo "Building for production..."
+          hugo --minify --gc --cleanDestinationDir --environment production --verbose
           
           # Verify public directory
+          echo "\nBuild output:"
           ls -la public/
+          
+          # Show first few lines of index.html for debugging
+          echo "\nPreview of index.html:"
+          head -n 20 public/index.html 2>/dev/null || echo "No index.html found"
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
