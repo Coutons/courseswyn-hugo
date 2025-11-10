@@ -1,11 +1,10 @@
 ---
-title: "About CoursesWyn - Best Udemy Course Reviews & Learning Resources"
-date: 2025-10-13T10:10:00+07:00
-draft: false
-layout: "page"
-description: "Learn about CoursesWyn - your trusted source for the best Udemy courses, online learning resources, and skill development. Expert reviews, course comparisons, and learning paths."
-keywords: ["about courseswyn", "udemy courses", "online learning", "best courses", "course reviews", "skill development", "education platform"]
-showReadingTime: true
+title: "About"
+date: 2025-11-10
+description: "About CoursesWyn - Your trusted source for course reviews"
+menu:
+  main:
+    weight: 30
 ---
 
 # About CoursesWyn - Your Ultimate Guide to Online Learning

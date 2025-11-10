@@ -12,32 +12,32 @@
   identifier = "categories"
 
 [[main]]
-  name = "Info"
+  name = "About"
+  url = "/pages/about/"
   weight = 3
-  hasChildren = true
-  
-  [[main]]
-    parent = "Info"
-    name = "About"
-    url = "/about/"
-    weight = 1
-    
-  [[main]]
-    parent = "Info"
-    name = "Terms of Service"
-    url = "/pages/terms/"
-    weight = 2
-    
-  [[main]]
-    parent = "Info"
-    name = "Privacy Policy"
-    url = "/pages/privacy/"
-    weight = 3
 
 [[main]]
   name = "Contact"
-  url = "/contact/"
+  url = "/pages/contact/"
   weight = 4
+
+# Dropdown menu for legal pages
+[[main]]
+  name = "Legal"
+  weight = 100
+  hasChildren = true
+  
+  [[main]]
+    parent = "Legal"
+    name = "Terms of Service"
+    url = "/pages/terms/"
+    weight = 1
+    
+  [[main]]
+    parent = "Legal"
+    name = "Privacy Policy"
+    url = "/pages/privacy/"
+    weight = 2
 
 # Social media links (will appear as icons in header)
 [[social]]

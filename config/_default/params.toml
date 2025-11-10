@@ -8,11 +8,12 @@
   favicon = "favicon.ico"
   
   # Logo settings
-  logo = "/images/logo.svg"
-  logoText = "CoursesWyn"
-  logoWidth = 150
-  logoHeight = 40
-  logoTitle = "CoursesWyn - Best Online Course Reviews"
+  logo = "images/logo.png"
+  logoMobile = "images/logo.png"
+  logoWidth = "40"
+  logoHeight = "40"
+  logoTitle = "CoursesWyn"
+  logoTitleDisplay = false
   
   # Header settings
   [params.header]

@@ -2,6 +2,9 @@
 title: "Contact CoursesWyn - Get Help with Udemy Courses & Learning Support"
 date: 2025-10-13
 draft: false
+menu:
+  main:
+    weight: 40
 layout: "page"
 description: "Contact CoursesWyn for support, feedback, or questions about Udemy courses. Get help with course recommendations, technical issues, and learning guidance."
 keywords: ["contact courseswyn", "udemy support", "course help", "learning assistance", "education support", "contact us"]
