@@ -24,10 +24,15 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Initialize and update submodules
+      - name: Initialize theme
         run: |
-          git submodule sync --recursive
-          git submodule update --init --recursive
+          # Clone theme if not exists
+          if [ ! -d "themes/clarity" ]; then
+            git clone https://github.com/nanxiaobei/hugo-clarity themes/clarity
+          fi
+          
+          # Show theme info
+          ls -la themes/clarity
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -37,8 +42,9 @@ jobs:
 
       - name: Install dependencies
         run: |
+          sudo apt-get update
+          sudo apt-get install -y postcss postcss-cli autoprefixer
           npm install -g postcss postcss-cli autoprefixer
-          npm install -g @fullhuman/postcss-purgecss
 
       - name: Build
         run: |
@@ -48,9 +54,10 @@ jobs:
           # Show theme info
           ls -la themes/
           
-          # Build with detailed output
+          # Build with detailed output and explicit theme path
           hugo version
-          hugo --minify --gc --verbose
+          # Build with theme from local directory
+          hugo --minify --gc --themesDir=./themes --theme=clarity --verbose
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
