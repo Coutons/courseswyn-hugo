@@ -5,16 +5,41 @@ theme = "clarity"
 timeZone = "Asia/Jakarta"
 publishDir = "public"
 
-[gitInfo]
-enable = true
-
 [build]
-useResourceCacheWhen = "fallback"
-timeout = "30s"
-writeStats = true
+  useResourceCacheWhen = "fallback"
+  writeStats = true
+  noChmod = true
+  noTimes = true
+  
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.128.0"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+  
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
 
 [outputs]
-home = ["HTML", "RSS"]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
+
+[services]
+  [services.googleAnalytics]
+    disable = true
 
 [markup]
   [markup.highlight]
