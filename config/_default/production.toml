@@ -1,2 +1,6 @@
 baseURL = 'https://courseswyn.com/'
 canonifyURLs = true
+
+[params]
+  # Google Search Console Verification
+  ga_verify = "-XfHFCgeWTSwnAavdkgcscTmIoRR5tAPS3FJeZ5lJts"
