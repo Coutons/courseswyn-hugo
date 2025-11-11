@@ -70,7 +70,7 @@ publishDir = "public"
   posts = "/:slug/"
   page = "/:slug/"
   categories = "/categories/:slug/"
-  tags = "/tags/:title/"  # Use :title to preserve spaces in tags
+  tags = "/tags/:title/"
 
 # Sitemap
 [sitemap]
@@ -117,6 +117,8 @@ publishDir = "public"
 
 # Site parameters
 [params]
+
+  
   # Basic info
   env = "production"
   description = "Discover the best online courses and expert reviews for 2025. Learn programming, data science, AI, and more with our curated course recommendations."
