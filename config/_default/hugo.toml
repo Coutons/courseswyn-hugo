@@ -65,9 +65,9 @@ publishDir = "public"
   [services.googleAnalytics]
     disable = true
 
-# Permalinks
+# Permalinks (default settings)
 [permalinks]
-  posts = "/:slug/"
+  posts = "/posts/:slug/"
   page = "/:slug/"
   categories = "/categories/:slug/"
   tags = "/tags/:title/"
