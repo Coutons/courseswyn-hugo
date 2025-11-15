@@ -7,6 +7,15 @@ theme = "clarity"
 timeZone = "Asia/Jakarta"
 publishDir = "public"
 
+# Main sections to show in home page
+[params]
+  mainSections = ["posts"]
+  defaultContentLanguage = "en"
+  defaultContentLanguageInSubdir = false
+  showReadingTime = true
+  enableEmoji = true
+  paginate = 10
+
 # Build settings
 [build]
   useResourceCacheWhen = "fallback"
