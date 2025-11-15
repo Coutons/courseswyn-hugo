@@ -32,7 +32,10 @@ jobs:
       - name: Build
         run: |
           hugo version
-          hugo --minify --gc
+          # Clear cache and do a clean build
+          rm -rf public/
+          rm -rf resources/_gen/
+          hugo --minify --gc --cleanDestinationDir
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
