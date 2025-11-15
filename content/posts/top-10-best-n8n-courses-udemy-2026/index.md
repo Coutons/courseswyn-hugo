@@ -1,8 +1,8 @@
 ---
 title: "Top 10 Best n8n Courses on Udemy for 2026"
 slug: "top-10-best-n8n-courses-udemy"
-date: 2025-11-15T10:00:00+07:00
-lastmod: 2025-11-15T10:00:00+07:00
+date: 2023-11-15T10:00:00+07:00
+lastmod: 2023-11-15T10:00:00+07:00
 draft: false
 layout: "post"
 showReadingTime: true
