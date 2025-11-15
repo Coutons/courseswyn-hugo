@@ -54,9 +54,8 @@ jobs:
     if: github.ref == 'refs/heads/main'
     steps:
       - name: Cleanup workflow runs
-        uses: rokroskar/workflow-run-cleanup-action@v1.0.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: garygrossgarten/github-action-cleanup-workflow-runs@v1.0.0
         with:
-          keep_days: '3'
-          keep_minimum_runs: '5'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          daysOld: 3
+          numToKeep: 5
