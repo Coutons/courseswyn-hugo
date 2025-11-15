@@ -21,6 +21,7 @@ publishDir = "public"
   useResourceCacheWhen = "fallback"
   writeStats = true
   noChmod = true
+  buildFuture = true
   noTimes = true
 
 # Module configuration
