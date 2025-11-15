@@ -77,11 +77,13 @@ publishDir = "public"
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
-  # Only include pages with publish date not in the future
-  lastmod = ":fileModTime"
+  # Force lastmod to be the current date
+  lastmod = "now"
   [sitemap.publish]
     priority = 0.5
     changefreq = "weekly"
+    # Ensure no future dates in sitemap
+    date = "now"
 
 # Taxonomies
 [taxonomies]
