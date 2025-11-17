@@ -1,5 +1,5 @@
 ---
-title: "Top 10 Best Model Context Protocol (MCP Courses on Udemy for 2026"
+title: "Top 10 Best Model Context Protocol (MCP) Courses on Udemy for 2026"
 slug: "top-10-best-mcp-courses-udemy"
 date: 2025-11-15T10:00:00+07:00
 lastmod: 2025-11-15T10:00:00+07:00
