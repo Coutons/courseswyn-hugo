@@ -2,9 +2,11 @@
 {{- $s := .Site -}}
 {{- $title := .Title -}}
 {{- $summary := .Summary | plainify | chomp -}}
-{{- $summaryMax := 180 -}}
-{{- if gt (len $summary) $summaryMax -}}
-  {{- $summary = truncate $summaryMax $summary -}}
+{{- $description := or .Description $summary -}}
+{{- $description = $description | plainify | chomp -}}
+{{- $descriptionMax := 180 -}}
+{{- if gt (len $description) $descriptionMax -}}
+  {{- $description = truncate $descriptionMax $description -}}
 {{- end -}}
 {{- $permalink := .Permalink -}}
 {{- $baseURL := strings.TrimSuffix "/" $s.BaseURL -}}
@@ -27,11 +29,11 @@
 {{- $imageAlt := .Params.imageAlt | default .Title -}}
 
 {{- /* Basic Meta */ -}}
-<meta name="description" content="{{ $summary }}">
+<meta name="description" content="{{ $description }}">
 
 {{- /* OpenGraph */ -}}
 <meta property="og:title" content="{{ $title }}" />
-<meta property="og:description" content="{{ $summary }}" />
+<meta property="og:description" content="{{ $description }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ $permalink }}" />
 
@@ -41,7 +43,7 @@
 <meta name="twitter:site" content="@{{ $twitterHandle }}">
 <meta name="twitter:creator" content="@{{ $twitterHandle }}">
 <meta name="twitter:title" content="{{ $title }}">
-<meta name="twitter:description" content="{{ $summary }}">
+<meta name="twitter:description" content="{{ $description }}">
 
 {{- /* Twitter Image */ -}}
 {{- $twitterImage := $image -}}
@@ -84,5 +86,3 @@
   {{- end }}
 {{- end -}}
 
-{{- /* Canonical URL */ -}}
-<link rel="canonical" href="{{ $permalink }}" />
