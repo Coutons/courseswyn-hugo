@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Top 5 Best Reinforcement Learning Courses on Udemy for 2026"
 slug: "best-reinforcement-learning-courses-udemy"
 date: 2025-11-19T20:00:00+07:00
 publishDate: 2025-11-19T08:00:00+07:00
