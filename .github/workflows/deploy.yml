@@ -24,10 +24,14 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: Update submodules
+      - name: Initialize and update submodules
         run: |
-          git submodule update --init --recursive --remote
-          git submodule update --recursive --remote --merge
+          git config --global --add safe.directory /github/workspace
+          git submodule sync
+          git submodule update --init --recursive --force
+          cd themes/clarity
+          git fetch --all
+          git reset --hard HEAD
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
