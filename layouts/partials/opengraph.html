@@ -1,0 +1,87 @@
+{{- /* OpenGraph and Twitter Card */ -}}
+{{- $s := .Site -}}
+{{- $p := . -}}
+{{- $title := .Title -}}
+{{- $summary := .Summary | plainify | chomp -}}
+{{- $permalink := .Permalink -}}
+{{- $image := .Params.featureImage | default .Site.Params.featureImage -}}
+{{- $imageAlt := .Params.imageAlt | default .Title -}}
+
+{{- /* Basic Meta */ -}}
+<meta name="description" content="{{ $summary }}">
+
+{{- /* OpenGraph */ -}}
+<meta property="og:title" content="{{ $title }}" />
+<meta property="og:description" content="{{ $summary }}" />
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta property="og:url" content="{{ $permalink }}" />
+
+{{- /* Twitter Card */ -}}
+<meta name="twitter:card" content="summary_large_image">
+{{- $twitterHandle := "courseswyn" -}}
+<meta name="twitter:site" content="@{{ $twitterHandle }}">
+<meta name="twitter:creator" content="@{{ $twitterHandle }}">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $summary }}">
+
+{{- /* Twitter Image */ -}}
+{{- $twitterImage := "" -}}
+{{- $baseURL := strings.TrimSuffix "/" $s.BaseURL -}}
+
+{{- /* Priority 1: Check all possible image sources */ -}}
+{{- with .Params.featureImage }}{{ $twitterImage = . }}
+{{ else }}{{ with .Params.thumbnail }}{{ $twitterImage = . }}
+{{ else }}{{ with .Params.shareImage }}{{ $twitterImage = . }}
+{{ else }}{{ with .Params.image }}{{ $twitterImage = . }}
+{{ else }}{{ $twitterImage = "images/twitter-card.jpg" }}{{ end }}{{ end }}{{ end }}{{ end }}
+
+{{- /* Ensure the path is clean and relative */ -}}
+{{- $twitterImage = strings.TrimPrefix "/" $twitterImage -}}
+
+{{- /* Construct full URL */ -}}
+{{- if not (hasPrefix (lower $twitterImage) "http") -}}
+  {{- $twitterImage = printf "%s/%s" $baseURL $twitterImage -}}
+{{- end -}}
+
+{{- /* Final fallback to default image */ -}}
+{{- if not $twitterImage -}}
+  {{- $twitterImage = printf "%s/images/twitter-card.jpg" $baseURL -}}
+{{- end -}}
+
+{{- /* Output the Twitter image meta tag */ -}}
+<meta name="twitter:image" content="{{ $twitterImage }}">
+<meta name="twitter:image:alt" content="{{ with .Params.imageAlt }}{{ . }}{{ else }}{{ $title }}{{ end }}">
+
+{{- /* OpenGraph Image */ -}}
+{{- $ogImage := $image -}}
+{{- if not (hasPrefix (lower $ogImage) "http") -}}
+  {{- $ogImage = printf "%s/%s" (strings.TrimSuffix "/" $baseURL) (strings.TrimPrefix "/" $ogImage) -}}
+{{- end -}}
+
+{{- with $ogImage -}}
+  <meta property="og:image" content="{{ . }}" />
+  <meta property="og:image:alt" content="{{ $imageAlt }}" />
+  {{- /* Menghapus imageConfig yang menyebabkan error */ -}}
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+{{- end -}}
+
+{{- /* Article specific */ -}}
+{{- if .IsPage -}}
+  <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+  {{- with .Lastmod }}
+    <meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">
+  {{- end }}
+  {{- with .Params.author }}
+    <meta property="article:author" content="{{ . }}">
+  {{- end }}
+  {{- with .Params.section }}
+    <meta property="article:section" content="{{ . }}">
+  {{- end }}
+  {{- range .Params.tags }}
+    <meta property="article:tag" content="{{ . }}">
+  {{- end }}
+{{- end -}}
+
+{{- /* Canonical URL */ -}}
+<link rel="canonical" href="{{ $permalink }}" />
