@@ -1,10 +1,29 @@
 {{- /* OpenGraph and Twitter Card */ -}}
 {{- $s := .Site -}}
-{{- $p := . -}}
 {{- $title := .Title -}}
 {{- $summary := .Summary | plainify | chomp -}}
+{{- $summaryMax := 180 -}}
+{{- if gt (len $summary) $summaryMax -}}
+  {{- $summary = truncate $summaryMax $summary -}}
+{{- end -}}
 {{- $permalink := .Permalink -}}
-{{- $image := .Params.featureImage | default .Site.Params.featureImage -}}
+{{- $baseURL := strings.TrimSuffix "/" $s.BaseURL -}}
+
+{{- /* Resolve best image candidate */ -}}
+{{- $imageCandidates := slice .Params.featureImage .Params.thumbnail .Params.shareImage .Params.image $s.Params.featureImage -}}
+{{- $image := "" -}}
+{{- range $imageCandidates -}}
+  {{- if and (not $image) . -}}
+    {{- $image = . -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $image -}}
+  {{- $image = "images/twitter-card.jpg" -}}
+{{- end -}}
+
+{{- if and $image (not (hasPrefix (lower $image) "http")) -}}
+  {{- $image = printf "%s/%s" $baseURL (strings.TrimPrefix "/" $image) -}}
+{{- end -}}
 {{- $imageAlt := .Params.imageAlt | default .Title -}}
 
 {{- /* Basic Meta */ -}}
@@ -25,27 +44,9 @@
 <meta name="twitter:description" content="{{ $summary }}">
 
 {{- /* Twitter Image */ -}}
-{{- $twitterImage := "" -}}
-{{- $baseURL := strings.TrimSuffix "/" $s.BaseURL -}}
-
-{{- /* Priority 1: Check all possible image sources */ -}}
-{{- with .Params.featureImage }}{{ $twitterImage = . }}
-{{ else }}{{ with .Params.thumbnail }}{{ $twitterImage = . }}
-{{ else }}{{ with .Params.shareImage }}{{ $twitterImage = . }}
-{{ else }}{{ with .Params.image }}{{ $twitterImage = . }}
-{{ else }}{{ $twitterImage = "images/twitter-card.jpg" }}{{ end }}{{ end }}{{ end }}{{ end }}
-
-{{- /* Ensure the path is clean and relative */ -}}
-{{- $twitterImage = strings.TrimPrefix "/" $twitterImage -}}
-
-{{- /* Construct full URL */ -}}
-{{- if not (hasPrefix (lower $twitterImage) "http") -}}
-  {{- $twitterImage = printf "%s/%s" $baseURL $twitterImage -}}
-{{- end -}}
-
-{{- /* Final fallback to default image */ -}}
-{{- if not $twitterImage -}}
-  {{- $twitterImage = printf "%s/images/twitter-card.jpg" $baseURL -}}
+{{- $twitterImage := $image -}}
+{{- if and $twitterImage (not (hasPrefix (lower $twitterImage) "http")) -}}
+  {{- $twitterImage = printf "%s/%s" $baseURL (strings.TrimPrefix "/" $twitterImage) -}}
 {{- end -}}
 
 {{- /* Output the Twitter image meta tag */ -}}
@@ -54,8 +55,8 @@
 
 {{- /* OpenGraph Image */ -}}
 {{- $ogImage := $image -}}
-{{- if not (hasPrefix (lower $ogImage) "http") -}}
-  {{- $ogImage = printf "%s/%s" (strings.TrimSuffix "/" $baseURL) (strings.TrimPrefix "/" $ogImage) -}}
+{{- if and $ogImage (not (hasPrefix (lower $ogImage) "http")) -}}
+  {{- $ogImage = printf "%s/%s" $baseURL (strings.TrimPrefix "/" $ogImage) -}}
 {{- end -}}
 
 {{- with $ogImage -}}
