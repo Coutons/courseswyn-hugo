@@ -13,10 +13,8 @@ author: "CoursesWyn Team"
 keywords: ["top 10 best n8n courses udemy 2026", "best n8n udemy 2026", "udemy n8n bootcamp", "n8n for beginners udemy 2026", "n8n ai agents courses udemy", "top n8n courses udemy", "automation workflows tutorials 2026", "n8n ai integration prep udemy", "udemy n8n reviews 2026", "best n8n course reviews"]
 seo_title: "Top 10 Best n8n Courses on Udemy for 2026: Hands-On Guide | CoursesWyn"
 seo_description: "Unlock the top 10 best n8n courses on Udemy for 2026. From AI agents to no-code automations, get expert reviews, ratings, and tips for beginners, developers, and workflow pros. Start automating today."
-twitter:card: "summary_large_image"
-twitter:title: "Top 10 Best n8n Courses on Udemy for 2026"
-twitter:description: "Master n8n and AI automation with the best Udemy courses for 2026. Learn to build AI agents, no-code workflows, and automate tasks with expert guidance and hands-on projects."
-twitter:image: "/images/top-n8n-courses.jpg"
+image: "/images/top-n8n-courses.jpg"
+imageAlt: "Top 10 Best n8n Courses on Udemy for 2026"
 
 # FAQ Section for Schema Markup
 faq:

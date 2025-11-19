@@ -35,6 +35,30 @@ publishDir = "public"
   logoHeight = "40"
   logoTitle = "CoursesWyn"
   logoTitleDisplay = false
+  
+  # Social media settings
+  [params.social]
+    twitter = "courseswyn"
+    github = ""
+    linkedin = ""
+    instagram = ""
+    facebook = ""
+    youtube = ""
+    
+  # OpenGraph settings
+  [params.openGraph]
+    enabled = true
+    twitterCard = "summary_large_image"
+    
+  # Default images for social sharing
+  [params.images]
+    opengraph = "/images/og-default.jpg"  # Default image for OpenGraph
+    twitter = "/images/twitter-card.jpg"  # Default image for Twitter Card
+    
+  # Twitter Card settings
+  largeTwitterCard = true  # Use summary_large_image for Twitter Cards
+  twitterSite = "@courseswyn"
+  twitterCreator = "@courseswyn"
 
   # Header settings
   [params.header]

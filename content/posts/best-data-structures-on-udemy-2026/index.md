@@ -14,10 +14,8 @@ author: "CoursesWyn Team"
 keywords: ["best data structures courses udemy 2026", "algorithms udemy", "udemy dsa bootcamp", "python dsa courses", "java data structures", "top udemy dsa courses", "c++ algorithms tutorials", "dsa interview prep", "udemy dsa reviews", "data structures course reviews 2026"]
 seo_title: "Best Data Structures and Algorithms Courses on Udemy 2026: Complete Guide | CoursesWyn"
 seo_description: "Explore the top 10 data structures and algorithms courses on Udemy for 2026. Master DSA in Python, Java, C++, and JavaScript with hands-on projects and interview prep. Honest reviews and recommendations for coding mastery."
-twitter:card: "summary_large_image"
-twitter:title: "Best Data Structures & Algorithms Courses on Udemy (2026)"
-twitter:description: "Master data structures and algorithms with the best Udemy courses for 2026. Learn DSA in Python, Java, C++, and JavaScript with hands-on projects and interview prep."
-twitter:image: "/images/data-structures-2026.png"
+image: "/images/data-structures-2026.png"
+imageAlt: "Best Data Structures & Algorithms Courses on Udemy (2026)"
 
 # FAQ Section for Schema Markup
 faq:

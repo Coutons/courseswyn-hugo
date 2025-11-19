@@ -10,24 +10,15 @@ showReadingTime: true
 description: "Looking for the best Java Spring courses on Udemy? Check out our expert-picked list of the top 10 Spring Boot, Spring Framework, and Spring Security courses for 2026. Compare features, prices, and student reviews to find your perfect match."
 categories: ["udemy reviews"]
 tags: ["java", "spring-boot"]
-featuredImage: "/images/spring-boot-udemy-courses.jpg"
-alt: "Best Java Spring Courses on Udemy 2026"
+image: "/images/spring-boot-udemy-courses.jpg"
+imageAlt: "Best Java Spring Courses on Udemy 2026"
 aliases:
   - /2025/10/10-best-java-spring-courses-on-udemy-2025-learn-spring-boot-more/
 
 # SEO Metadata
 seo_title: "10 Best Java Spring Courses on Udemy (2026) | Expert-Reviewed"
 seo_description: "Discover the top-rated Java Spring courses on Udemy for 2026. Compare Spring Boot, Spring Security, and Spring Framework courses with in-depth reviews and recommendations."
-twitter:card: "summary_large_image"
-twitter:title: "10 Best Java Spring Courses on Udemy (2026)"
-twitter:description: "Master Spring Boot, Spring Framework, and Spring Security with these top-rated Udemy courses. Expert-picked list with in-depth reviews and comparisons for 2026."
-twitter:image: "/images/spring-boot-udemy-courses.jpg"
 seo_keywords: ["best spring boot course", "learn spring framework", "java spring courses 2026", "udemy spring boot", "spring security tutorial"]
-
-# Open Graph / Social Media
-og_title: "10 Best Java Spring Courses on Udemy 2026 | Expert Picks"
-og_description: "Master Spring Framework with these top-rated Udemy courses. Compare features, prices, and student reviews to find the perfect Spring Boot course for your needs in 2026."
-og_image: "https://yourdomain.com/images/spring-boot-udemy-courses.jpg"
 og_type: "article"
 twitter_card: "summary_large_image"
 
