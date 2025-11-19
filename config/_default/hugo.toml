@@ -36,34 +36,35 @@ publishDir = "public"
   logoTitle = "CoursesWyn"
   logoTitleDisplay = false
   
-  # Social media settings
+  # Social media settings (consolidated)
   [params.social]
-    twitter = "courseswyn"
+    twitter = "courseswyn"  # Username without @
     github = ""
     linkedin = ""
     instagram = ""
     facebook = ""
     youtube = ""
+    rss = true
     
   # OpenGraph settings
   [params.openGraph]
     enabled = true
-    twitterCard = "summary_large_image"
+    type = "website"
+    locale = "en_US"
     
   # Default images for social sharing
   [params.images]
-    opengraph = "/images/og-default.jpg"  # Default image for OpenGraph
-    twitter = "/images/twitter-card.jpg"  # Default image for Twitter Card
+    opengraph = "/images/og-default.jpg"
+    twitter = "/images/twitter-card.jpg"
+    fallBackOgImage = "/images/og-default.jpg"
     
   # Twitter Card settings
-  largeTwitterCard = true  # Use summary_large_image for Twitter Cards
-  twitterSite = "@courseswyn"
-  twitterCreator = "@courseswyn"
-
+  largeTwitterCard = true  # Use summary_large_image format
+  
   # Header settings
   [params.header]
     title = "CoursesWyn"
-    subtitle = ""  # Empty to save space
+    subtitle = ""
     logoWidth = "40px"
     logoHeight = "40px"
     showSearch = true
@@ -74,18 +75,10 @@ publishDir = "public"
     copyright = "© 2025 CoursesWyn - All rights reserved"
     showSocial = true
 
-  # Social media settings
-  [params.social]
-    twitter = "#"
-    facebook = "#"
-    instagram = "#"
-    youtube = "#"
-    rss = true
-
   # SEO Settings
   [params.seo]
-    twitter = "@CoursesGift"
-    og_image = "images/og-image.jpg"
+    twitter = "courseswyn"  # Sync with social media username
+    og_image = "/images/og-default.jpg"
     og_locale = "en_US"
     og_type = "website"
 
