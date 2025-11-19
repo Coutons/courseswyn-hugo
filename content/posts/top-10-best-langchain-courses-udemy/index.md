@@ -13,6 +13,10 @@ author: "CoursesWyn Team"
 keywords: ["best langchain courses udemy 2026","langchain udemy","rag langchain udemy","ai agents langchain","langgraph udemy","ollama langchain","langsmith course"]
 seo_title: "Top 10 Best LangChain Courses on Udemy for 2026 | CoursesWyn"
 seo_description: "Ranked 10 best LangChain courses on Udemy 2026 by 50K+ enrollments. Master LLM apps, RAG, LangGraph, AI agents, local models with projects, certificates, $10–$20."
+twitter:card: "summary_large_image"
+twitter:title: "Top 10 Best LangChain Courses on Udemy for 2026"
+twitter:description: "Master LangChain, RAG, LangGraph, and AI agents with these top-rated Udemy courses. Build production-ready LLM applications with hands-on projects and real-world examples."
+twitter:image: "/images/top-langchain-courses.jpg"
 
 faq:
   - question: "What is the best LangChain course for beginners on Udemy in 2026?"

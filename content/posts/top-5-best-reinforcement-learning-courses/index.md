@@ -1,5 +1,5 @@
 ---
-title: "Top 5 Best Reinforcement Learning Courses on Udemy for 2026"
+title: ""
 slug: "best-reinforcement-learning-courses-udemy"
 date: 2025-11-19T20:00:00+07:00
 publishDate: 2025-11-19T08:00:00+07:00
@@ -11,6 +11,10 @@ tags: ["reinforcement learning"]
 author: "CoursesWyn Team"
 keywords: ["best reinforcement learning courses udemy 2026", "deep reinforcement learning pytorch", "reinforcement learning trading", "rl udemy", "lazy programmer reinforcement learning", "dqn a2c course"]
 image: "/images/top-reinforcement-learning-courses-2026.png"
+twitter:card: "summary_large_image"
+twitter:title: "Top 5 Best Reinforcement Learning Courses on Udemy (2026)"
+twitter:description: "Discover the top-rated Reinforcement Learning courses on Udemy for 2026. Learn DQN, Policy Gradients, A2C, and more with hands-on projects and real-world applications."
+twitter:image: "/images/top-reinforcement-learning-courses-2026.png"
 ---
 
 ![Top Reinforcement Learning Courses 2026](/images/top-reinforcement-learning-courses-2026.png)

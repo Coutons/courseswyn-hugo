@@ -14,6 +14,10 @@ author: "CoursesWyn Team"
 keywords: ["best ai courses udemy 2026", "machine learning courses udemy", "udemy ai bootcamp", "generative ai courses", "python machine learning", "top udemy ai courses", "deep learning tutorials", "ai data science courses", "udemy ml reviews", "ai course reviews 2025"]
 seo_title: "Top AI and Machine Learning Courses on Udemy 2026 | Expert Picks & Reviews | CoursesWyn"
 seo_description: "Explore the top 10 AI and machine learning courses on Udemy for 2026. Learn generative AI, deep learning, and data science with expert instructors and hands-on projects. Get honest reviews and recommendations."
+twitter:card: "summary_large_image"
+twitter:title: "Top AI and Machine Learning Courses on Udemy 2026"
+twitter:description: "Master AI and machine learning with the best Udemy courses for 2026. Learn generative AI, deep learning, and data science with expert guidance and hands-on projects."
+twitter:image: "/images/ai-machine-learning-2025.jpg"
 
 # FAQ Section for Schema Markup
 faq:

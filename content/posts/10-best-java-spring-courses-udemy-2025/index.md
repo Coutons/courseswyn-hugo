@@ -18,6 +18,10 @@ aliases:
 # SEO Metadata
 seo_title: "10 Best Java Spring Courses on Udemy (2026) | Expert-Reviewed"
 seo_description: "Discover the top-rated Java Spring courses on Udemy for 2026. Compare Spring Boot, Spring Security, and Spring Framework courses with in-depth reviews and recommendations."
+twitter:card: "summary_large_image"
+twitter:title: "10 Best Java Spring Courses on Udemy (2026)"
+twitter:description: "Master Spring Boot, Spring Framework, and Spring Security with these top-rated Udemy courses. Expert-picked list with in-depth reviews and comparisons for 2026."
+twitter:image: "/images/spring-boot-udemy-courses.jpg"
 seo_keywords: ["best spring boot course", "learn spring framework", "java spring courses 2026", "udemy spring boot", "spring security tutorial"]
 
 # Open Graph / Social Media

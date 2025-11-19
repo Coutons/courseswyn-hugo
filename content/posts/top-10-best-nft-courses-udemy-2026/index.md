@@ -13,6 +13,10 @@ author: "CoursesWyn Team"
 keywords: ["top 10 best nft courses udemy 2026", "best nft udemy 2026", "udemy nft bootcamp", "nft for beginners udemy 2026", "nft artist courses udemy", "top nft courses udemy", "blockchain nft tutorials 2026", "nft investment prep udemy", "udemy nft reviews 2026", "best nft course reviews"]
 seo_title: "Top 10 Best NFT Courses on Udemy for 2026: Hands-On Guide | CoursesWyn"
 seo_description: "Unlock the top 10 best NFT courses on Udemy for 2026. From minting to trading, get expert reviews, ratings, and tips for beginners, artists, and Web3 pros. Start your NFT journey today."
+twitter:card: "summary_large_image"
+twitter:title: "Top 10 Best NFT Courses on Udemy for 2026"
+twitter:description: "Master NFTs with the best Udemy courses for 2026. Learn minting, trading, and Web3 strategies for creating and investing in non-fungible tokens with expert guidance."
+twitter:image: "/images/top-nft-courses-2026.jpg"
 
 # FAQ Section for Schema Markup
 faq:

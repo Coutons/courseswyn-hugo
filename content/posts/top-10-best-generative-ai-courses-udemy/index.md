@@ -10,6 +10,10 @@ tags: ["generative ai"]
 author: "CoursesWyn Team"
 keywords: ["best generative ai courses udemy 2026", "chatgpt udemy course", "rag llm udemy", "ai agents course", "local llm ollama", "genai python", "aws bedrock course", "azure openai .net"]
 image: "/images/top-generative-ai-courses-2026.png"
+twitter:card: "summary_large_image"
+twitter:title: "Top 10 Best Generative AI (Gen AI) Courses on Udemy for 2026"
+twitter:description: "Master ChatGPT, RAG, AI agents, LLMs, local models, and real-world projects in 2026 with these top-rated Udemy courses."
+twitter:image: "/images/top-generative-ai-courses-2026.png"
 ---
 
 ![Top Generative AI Courses 2026](/images/top-generative-ai-courses-2026.png)
