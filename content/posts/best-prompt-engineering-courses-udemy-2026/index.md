@@ -604,8 +604,54 @@ Perfect if you just want to use AI better in everyday life without becoming a fu
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type":"Question","name":"What is the best Prompt Engineering course on Udemy in 2026?","acceptedAnswer":{"@type":"Answer","text":"The Complete Prompt Engineering for AI Bootcamp (2025) by Mike Taylor & James Phoenix – 108k+ students and updated monthly."}},
-    {"@type":"Question","name":"How much do these courses cost?","acceptedAnswer":{"@type":"Answer","text":"$12–$20 during Udemy sales."}}
+    {
+      "@type": "Question",
+      "name": "Which is the best Prompt Engineering course for complete beginners on Udemy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with #7 “Prompt Engineering for Beginners” by Mike Wheeler (6 hours), then jump straight to #1 The Complete Bootcamp."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which course is best if I want a job as a Prompt Engineer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "#1 The Complete Prompt Engineering for AI Bootcamp by Mike Taylor & James Phoenix — highest enrollment, most projects, and best job-placement feedback."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much do these Udemy courses cost in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "$12–$20 during sales (regular price $149–$199). Udemy sales happen almost every week."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I get a certificate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — official Udemy Certificate of Completion for every course, shareable on LinkedIn."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will these courses still be relevant with GPT-5 and new models in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All top courses (#1–#6) are actively updated for GPT-5, Claude 3.5, Gemini 2, Veo 3, and agentic workflows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I learn Prompt Engineering without coding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — #1, #2, #3, #4, #7, #8, #10 are 100% no-code friendly."
+      }
+    }
   ]
 }
 </script>
