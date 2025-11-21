@@ -14,7 +14,7 @@ image: "/images/best-prompt-engineering-courses-udemy-2026.jpg"
 imageAlt: "12 Best Prompt Engineering Courses on Udemy for 2026"
 ---
 
-![10 Best Prompt Engineering Courses on Udemy for 2026](/images/best-prompt-engineering-courses-udemy-2026.jpg)
+![12 Best Prompt Engineering Courses on Udemy for 2026](/images/best-prompt-engineering-courses-udemy-2026.jpg)
 
 *Master GPT-5, Claude 3.5, Gemini 2, Veo 3, LangGraph, RAG, Tool-Calling & Production AI in 2026.*
 
