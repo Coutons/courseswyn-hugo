@@ -483,10 +483,119 @@ Perfect if you just want to use AI better in everyday life without becoming a fu
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "10 Best Prompt Engineering Courses on Udemy for 2026",
-  "description": "Top 10 best Prompt Engineering courses on Udemy 2026 by real enrollments, ratings, and 2025–2026 updates.",
-  "numberOfItems": 10,
-  "itemListElement": [ ... ]
+  "name": "12 Best Prompt Engineering Courses on Udemy for 2026",
+  "description": "Top 12 best Prompt Engineering courses on Udemy 2026 by real enrollments, ratings, and 2025–2026 updates.",
+  "numberOfItems": 12,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Course",
+        "name": "The Complete Prompt Engineering for AI Bootcamp (2025)",
+        "url": "https://www.udemy.com/prompt-engineering-for-ai"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Course",
+        "name": "Prompt Engineering Certification: Master AI",
+        "url": "https://www.udemy.com/prompt-engineering-certification-master-ai"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Course",
+        "name": "Practical Prompt Engineering Masterclass: Hands-On Learning",
+        "url": "https://www.udemy.com/practical-prompt-engineering-masterclass-hands-on-learning-2025"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Course",
+        "name": "Prompt Engineering & AI with ChatGPT: Novice to Expert 2025",
+        "url": "https://www.udemy.com/prompt-engineering-ai-chatgpt-beginner-to-advanced-2025"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Course",
+        "name": "Prompt Engineering for Developers: The Definitive Guide",
+        "url": "https://www.udemy.com/prompt-engineering-definitive-guide"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Course",
+        "name": "AI Prompt Engineering For Cybersecurity Pros",
+        "url": "https://www.udemy.com/ai-prompt-engineering-cybersecurity"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Course",
+        "name": "Prompt Engineering for Beginners - Learn ChatGPT Prompting",
+        "url": "https://www.udemy.com/chatgpt-promptengineering"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Course",
+        "name": "Prompt Engineering: Getting Future Ready (1000+ Prompts inc)",
+        "url": "https://www.udemy.com/prompt-engineering-course"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "Course",
+        "name": "ChatGPT Complete Course - Prompt Engineering for ChatGPT",
+        "url": "https://www.udemy.com/chat-gpt"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "Course",
+        "name": "Prompt Engineering: ChatGPT & AI Prompts For Work Success!",
+        "url": "https://www.udemy.com/prompt-engineering-chatgpt-courserompts-for-work-success"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "Course",
+        "name": "ChatGPT & MidJourney AI Prompt Engineering for Entrepreneurs",
+        "url": "https://www.udemy.com/chatgpt-ai-prompt-engineering"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "Course",
+        "name": "ChatGPT and GPT-4 LLM Guide- Prompt Engineering for Everyone",
+        "url": "https://www.udemy.com/prompt-engineering-for-everybody"
+      }
+    }
+  ]
 }
 </script>
 
