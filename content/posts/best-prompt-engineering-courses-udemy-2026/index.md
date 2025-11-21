@@ -5,7 +5,7 @@ date: 2025-11-21T20:00:00+07:00
 publishDate: 2025-11-21T08:00:00+07:00
 lastmod: 2025-11-21T20:00:00+07:00
 draft: false
-description: "Top 12 best Prompt Engineering courses on Udemy 2026 ranked by real enrollments, ratings, and 2025–2026 updates. All courses include projects, certificates, lifetime access, $12–$20 during sales."
+description: "Top 12 Udemy prompt engineering courses for 2026—ranked by enrollments, ratings, fresh updates, and packed with projects, certificates, and lifetime access."
 categories: ["udemy-reviews"]
 tags: ["prompt engineering", "chatgpt"]
 author: "CoursesWyn Team"

@@ -6,7 +6,7 @@ lastmod: 2025-11-15T10:00:00+07:00
 draft: false
 layout: "post"
 showReadingTime: true
-description: "Discover the top 10 best n8n courses on Udemy for 2026, ranked by enrollment, ratings, and relevance. Ideal for beginners, developers, and automation pros mastering AI agents, no-code workflows, and AI integrations."
+description: "Top 10 n8n courses on Udemy 2026—ranked by enrollments and ratings for beginners, developers, and automation pros mastering AI agents and no-code workflows."
 categories: ["udemy reviews"]
 tags: ["n8n", "ai agents", "automation", "no-code", "workflows", "ai automation"]
 author: "CoursesWyn Team"

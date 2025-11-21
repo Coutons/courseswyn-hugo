@@ -6,7 +6,7 @@ lastmod: 2025-10-13T15:00:00+07:00
 draft: false
 layout: "post"
 showReadingTime: true
-description: "Discover the top 10 best data science courses on Udemy for 2025."
+description: "Top 10 Udemy data science courses for 2025—learn Python, machine learning, AI, and analytics from bestselling instructors with projects and certificates."
 categories: ["udemy-reviews"]
 tags: ["data science"]
 aliases:
